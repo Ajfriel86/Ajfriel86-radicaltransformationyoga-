@@ -1,48 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&family=Roboto&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 
 }
 
-body{
+body {
     font-family: 'Noto Sans KR', sans-serif;  
     font-weight: 400; 
     color: #3a3a3a; 
 }
 /* Headings and Logos */
-h1, h2{
+h1, h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525
 }
-#logo{
+#logo {
     float: left;
-    size: 280%
+    size: 280%;
+    margin-left: 30px;
 }
 /* nav links */
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
     ;
 }
-#menu, #logo{
+#menu, #logo {
     line-height: 75px;
 
 }
-#menu li{
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
 
 }
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+#cover-text, #cover-text h2{
+    color: #fff ;
+
+}
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+#hero {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/yoga.jpg');
+    /* animating the hero-zoomer*/
+    animation-name: hero-zoomer;
+    animation-duration: 6.7s;
+    animation-fill-mode: forwards;
+}
+/* animates hero image with zoom effect */
+@keyframes hero-zoomer {
+from {
+transform: scale(1);
+}
+to{
+transform: scale(1.153);
+}
+}
+#cover-text {
+    font-size: 135%;
+    font-family: 'Noto Sans KR', sans-serif;  
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align:justify;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top:45px;
+    padding-left: 15px;
+
+    background-color: rgba(190, 144, 212,.7);
+
+    bottom: 25px;
+    right: 145px;
+
+    position: absolute;
+}
+/* yoga-classes */
+#yoga-classes {
+height: 600px;
+
+}
+#left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+#right{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: red;
+}
+#middle {
+    width: 33%;
+    margin: 0 auto;
+    background-color: yellow;
 }
