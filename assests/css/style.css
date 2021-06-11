@@ -17,12 +17,15 @@ h1, h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525
+    color: #252525;
 }
 #logo {
+    font-family: 'Roboto', sans-serif;
     float: left;
-    size: 280%;
+    size: 75%;
     margin-left: 30px;
+    color: #252525;
+
 }
 /* nav links */
 #menu {
