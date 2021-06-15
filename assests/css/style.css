@@ -50,9 +50,7 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
+
 #cover-text, #cover-text h2{
     color: #fff ;
 
@@ -83,13 +81,13 @@ transform: scale(1.153);
 }
 }
 #cover-text {
-    font-size: 135%;
+    font-size: 100%;
     font-family: 'Noto Sans KR', sans-serif;  
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align:justify;
 
-    width: 300px;
+    width: 200px;
     height: 200px;
 
     padding-top:45px;
@@ -102,36 +100,17 @@ transform: scale(1.153);
 
     position: absolute;
 }
-/* yoga-classes */
 #yoga-ethos {
-height: 600px;
-
-}
-#left {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-  
-   
-}
-#right{
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-   
-}
-#middle {
-    width: 33%;
-    margin: 0 auto;
+    height: 600px;
     
 }
-hr {
-    border-bottom: 4px;
-    width: 100%;
-    margin: 5px 0;
+.first{
+width: 100%;
 
 }
-.left-heading {
+.heading-one {
+    padding-top: 100px;
+    padding-right: 50px;
     width: 60%;
     float: right;
     line-height: 20px;
@@ -139,7 +118,12 @@ hr {
     margin-bottom: 50px;
    
 }
-.right-heading {
+#image-one{
+    width: 25%; 
+    float: left;
+}.heading-two {
+    padding-top: 50px;
+    padding-left: 100px;
     width: 60%;
     float: left;
     line-height: 20px;
@@ -147,18 +131,16 @@ hr {
     margin-bottom: 50px;
    
 }
-.right-heading h2{
-    text-align: right;
-}
-.right-heading p{
-    text-align: right;
+#image-two{
+    width: 25%;   
+    float: right;
 }
 #welcome{
     text-align: center;
     margin: 20px 0;
     font-size: 200%;
 }
-#container{
+#container-one{
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -169,8 +151,24 @@ hr {
     margin: 0 auto;
 
 }
-#circle-bg{
+#circle-one{
     background: url('../images/pose.png') no-repeat center center;
+    height: 100%;
+    
+}
+#container-2{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+#circle-2{
+    background: url('../images/yoga-3.png') no-repeat center center;
     height: 100%;
     
 }
