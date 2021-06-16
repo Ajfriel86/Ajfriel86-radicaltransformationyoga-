@@ -104,6 +104,12 @@ transform: scale(1.153);
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
+.grid-container2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
 .heading-one {
      
     line-height: 20px;
@@ -163,6 +169,21 @@ transform: scale(1.153);
 }
 #circle-2{
     background: url('../images/yoga-3.png') no-repeat center center;
+    height: 100%;
+    
+}
+.teach-one{
+    background: url('../images/sarayoga.png') no-repeat center center;
+    height: 100%;
+    
+}
+.teach-two{
+    background: url('../images/lisa1.png') no-repeat center center;
+    height: 100%;
+    
+}
+.teach-three{
+    background: url('../images/chrisyoga.png') no-repeat center center;
     height: 100%;
     
 }
