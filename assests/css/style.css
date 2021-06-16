@@ -98,11 +98,23 @@ transform: scale(1.153);
 #yoga-ethos {
     height: 600px;
 }
-.first-container
+.grid-container
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+}
+.heading-one {
+     
+    line-height: 20px;
+    text-align: left;
+    margin-left: 150px;
+}
+.heading-two {
+     
+    line-height: 20px;
+    text-align: right;
+    margin-right: 150px;
 }
 #welcome
 {
