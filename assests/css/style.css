@@ -116,6 +116,18 @@ transform: scale(1.153);
     text-align: right;
     margin-right: 150px;
 }
+.video-one{
+    height: 100%;
+    width: 50%;
+    margin-left: 150px;
+    text-align: center; 
+}
+.video-two{
+    height: 100%;
+    width: 50%;
+    margin-right: 150px; 
+    text-align: center; 
+}
 #welcome
 {
     text-align: center;
@@ -153,4 +165,7 @@ transform: scale(1.153);
     background: url('../images/yoga-3.png') no-repeat center center;
     height: 100%;
     
+}
+#end{
+    height: 300px;
 }
