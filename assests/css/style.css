@@ -86,58 +86,28 @@ transform: scale(1.153);
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align:justify;
-
     width: 200px;
     height: 200px;
-
     padding-top:45px;
     padding-left: 15px;
-
     background-color: rgba(190, 144, 212,.7);
-
     bottom: 25px;
     right: 145px;
-
     position: absolute;
 }
 #yoga-ethos {
     height: 600px;
-    
 }
-.first{
-width: 100%;
-
+.first-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
-.heading-one {
-    padding-top: 100px;
-    padding-right: 50px;
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-   
-}
-#image-one{
-    width: 25%; 
-    float: left;
-}.heading-two {
-    padding-top: 50px;
-    padding-left: 100px;
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-   
-}
-#image-two{
-    width: 25%;   
-    float: right;
-}
-#welcome{
+#welcome
+{
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 200%;
 }
 #container-one{
