@@ -154,7 +154,11 @@ transform: scale(1.153);
 #circle-one{
     background: url('../images/pose.png') no-repeat center center;
     height: 100%;
-    
+    border-radius: 50%;
+}
+.image-one {
+    width: 25%;
+
 }
 #container-2{
     width: 300px;
@@ -170,22 +174,58 @@ transform: scale(1.153);
 #circle-2{
     background: url('../images/yoga-3.png') no-repeat center center;
     height: 100%;
+    border-radius: 50%;
     
 }
+#container-3{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
 .teach-one{
-    background: url('../images/sarayoga.png') no-repeat center center;
+    background: url('../images/sarayoga1.png') no-repeat center center;
     height: 100%;
+    border-radius: 50%;
     
+}
+#container-4{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+
 }
 .teach-two{
     background: url('../images/lisa1.png') no-repeat center center;
     height: 100%;
+    border-radius: 50%;
     
+}
+#container-5{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+
 }
 .teach-three{
     background: url('../images/chrisyoga.png') no-repeat center center;
     height: 100%;
-    
+    border-radius: 50%;
 }
 #end{
     height: 300px;
