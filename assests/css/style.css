@@ -20,34 +20,34 @@ h1, h2 {
     color: #252525;
 }
 #logo {
-    font-family: 'Roboto', sans-serif;
-    float: left;
-    size: 75%;
-    margin-left: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
     color: #252525;
+    float: left;
+    size: 50%;
+    margin-left: 30px;
+   text-decoration: none;
 
 }
+
 /* nav links */
-#menu {
+#nav {
     font-size: 110%;
     letter-spacing: 4px;
-    ;
 }
-#menu, #logo {
+#nav, #logo {
     line-height: 75px;
-
 }
-#menu li {
+#nav li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-#menu a {
+#nav a {
     text-decoration: none;
     color: inherit;
 
 }
-#menu a:hover {
+#nav a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -55,11 +55,11 @@ h1, h2 {
     color: #fff ;
 
 }
+/* hero image */
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 #hero {
@@ -103,12 +103,16 @@ transform: scale(1.153);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
-.grid-container2
+.grid-container-two
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .heading-one {
      
@@ -125,13 +129,12 @@ transform: scale(1.153);
 .video-one{
     height: 100%;
     width: 50%;
-    margin-left: 150px;
+    
     text-align: center; 
 }
 .video-two{
     height: 100%;
     width: 50%;
-    margin-right: 150px; 
     text-align: center; 
 }
 #welcome
@@ -156,7 +159,7 @@ transform: scale(1.153);
     height: 100%;
     border-radius: 50%;
 }
-.image-one {
+.image{
     width: 25%;
 
 }
@@ -177,55 +180,22 @@ transform: scale(1.153);
     border-radius: 50%;
     
 }
-#container-3{
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-.teach-one{
+#teach-one{
     background: url('../images/sarayoga1.png') no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    
     
 }
-#container-4{
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-
-}
-.teach-two{
+#teach-two{
     background: url('../images/lisa1.png') no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+   
     
 }
-#container-5{
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-
-}
-.teach-three{
+#teach-three{
     background: url('../images/chrisyoga.png') no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    
 }
 #end{
     height: 300px;
