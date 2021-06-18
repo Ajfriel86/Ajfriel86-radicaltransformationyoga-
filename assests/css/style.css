@@ -95,6 +95,13 @@ transform: scale(1.153);
     right: 145px;
     position: absolute;
 }
+hr {
+    border: 0;
+    width: 100%; 
+                
+    background-color:#3a3a3a;
+    height: 2px;
+  }
 #yoga-ethos {
     height: 600px;
 }
@@ -180,22 +187,8 @@ transform: scale(1.153);
     border-radius: 50%;
     
 }
-#teach-one{
-    background: url('../images/sarayoga1.png') no-repeat center center;
-    height: 100%;
-    
-    
-}
-#teach-two{
-    background: url('../images/lisa1.png') no-repeat center center;
-    height: 100%;
-   
-    
-}
-#teach-three{
-    background: url('../images/chrisyoga.png') no-repeat center center;
-    height: 100%;
-    
+#teach{
+    text-align: center;
 }
 #end{
     height: 300px;
