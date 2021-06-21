@@ -1,14 +1,18 @@
+    Project-Name: Transformitive Yoga - Angus Friel
+This is my first milestone projetc and I chose to take on this project by builing a website for a yoga studio that offers online and studio based yoga classes. I chose this topic as I have a friend that is a yoga instructor so obtain the content was very easy. I also used other sites and content ot help flesh it out.  
+
+    UX
+
+  
   Features
 This website will have information regarding yoga classes, both online and in studio. It is for anyone who wants to know more about yoga and this business’ yoga classes. 
 
 Existing Features
 
     Browser Icon
-
 I replaced the oringal world icon with a "burn-alt" from fontawesome. This was done my using: https://gauger.io/fonticon/ to download the fontawesome icone and then embeded it into the header to create the burn icon on the browser tab. 
 
     Navigation Bar
-
 The fully responsive navigation bar will have three pages, home(index.html), clases(classes.html) and sign up(singup.html). The nav bar will be across all three pages. 
 This will allow the user to easily navigate across the website. 
     
@@ -23,6 +27,15 @@ This page will have the various classes a user can take part in. From introducti
 
     Sign Up(signup.html)
 This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries.
+
+    Technologies used: 
+This project consists of pure HTML5 and CSS.
+
+    Testing
+
+    Deployment
+
+    
 
     Where I got my idea and content for a yoga website :
 

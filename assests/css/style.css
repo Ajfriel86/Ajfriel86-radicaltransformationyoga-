@@ -19,17 +19,17 @@ h1, h2 {
     letter-spacing: 4px;
     color: #252525;
 }
+/* Transformaitive yoga styled*/
 #logo {
     font-family: 'Noto Sans KR', sans-serif;
     color: #252525;
-    float: left;
     size: 50%;
     margin-left: 30px;
-   text-decoration: none;
+    text-decoration: none;
 
 }
 
-/* nav links */
+/* nav links & style*/
 #nav {
     font-size: 110%;
     letter-spacing: 4px;
@@ -38,7 +38,6 @@ h1, h2 {
     line-height: 75px;
 }
 #nav li {
-    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -50,7 +49,7 @@ h1, h2 {
 #nav a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
-
+/*Text box within the hero image*/
 #cover-text, #cover-text h2{
     color: #fff ;
 
@@ -80,6 +79,7 @@ to{
 transform: scale(1.153);
 }
 }
+/*text box within the hero image styled*/
 #cover-text {
     font-size: 100%;
     font-family: 'Noto Sans KR', sans-serif;  
@@ -95,6 +95,7 @@ transform: scale(1.153);
     right: 145px;
     position: absolute;
 }
+/*hr styled*/
 hr {
     border: 0;
     width: 100%; 
@@ -105,6 +106,7 @@ hr {
 #yoga-ethos {
     height: 600px;
 }
+/*grid box for two divs*/
 .grid-container
 {
     display: grid;
@@ -113,6 +115,7 @@ hr {
     padding-left: 150px;
     padding-right: 150px;
 }
+/*grid box for 3 divs*/
 .grid-container-two
 {
     display: grid;
@@ -121,35 +124,40 @@ hr {
     padding-left: 50px;
     padding-right: 50px;
 }
+/*why do yoga*/
 .heading-one {
      
     line-height: 20px;
     text-align: left;
     margin-left: 150px;
 }
+/* what is yoga */ 
 .heading-two {
      
     line-height: 20px;
     text-align: right;
     margin-right: 150px;
 }
+/*video text styled*/
 .video-one{
     height: 100%;
-    width: 50%;
-    
+    width: 50%;   
     text-align: center; 
 }
+/*video text styled*/
 .video-two{
     height: 100%;
     width: 50%;
     text-align: center; 
 }
+/*yoga power styled*/
 #welcome
 {
     text-align: center;
     margin: 10px 0;
     font-size: 200%;
 }
+/*cirled picture*/
 #container-one{
     width: 300px;
     height: 300px;
@@ -161,6 +169,7 @@ hr {
     margin: 0 auto;
 
 }
+/*image within circle 1*/
 #circle-one{
     background: url('../images/pose.png') no-repeat center center;
     height: 100%;
@@ -170,6 +179,7 @@ hr {
     width: 25%;
 
 }
+/*cirled picture*/
 #container-2{
     width: 300px;
     height: 300px;
@@ -181,13 +191,21 @@ hr {
     margin: 0 auto;
 
 }
+/*image within circle 1*/
 #circle-2{
     background: url('../images/yoga-3.png') no-repeat center center;
     height: 100%;
     border-radius: 50%;
     
 }
+/*text styled on teachers*/
+.teach-text{
+text-align: right;
+}
 #teach{
+    text-align: center;
+}
+#teach2{
     text-align: center;
 }
 #end{
