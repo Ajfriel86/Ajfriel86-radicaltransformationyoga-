@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Noto Sans KR', sans-serif;  
-    font-weight: 400; 
+    font-weight: 300; 
     color: #3a3a3a; 
 }
 /* Headings and Logos */
@@ -22,6 +22,7 @@ h1, h2 {
 /* Transformaitive yoga styled*/
 #logo {
     font-family: 'Noto Sans KR', sans-serif;
+    float: left;
     color: #252525;
     size: 50%;
     margin-left: 30px;
@@ -33,6 +34,8 @@ h1, h2 {
 #nav {
     font-size: 110%;
     letter-spacing: 4px;
+    float: right;
+    flex-direction: row;
 }
 #nav, #logo {
     line-height: 75px;
@@ -95,6 +98,11 @@ transform: scale(1.153);
     right: 145px;
     position: absolute;
 }
+/*adds a margin botton to everything with this class name*/
+.margin{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 /*hr styled*/
 hr {
     border: 0;
@@ -114,15 +122,16 @@ hr {
     grid-gap: 20px;
     padding-left: 150px;
     padding-right: 150px;
+    margin-bottom: ;
 }
 /*grid box for 3 divs*/
 .grid-container-two
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    grid-gap: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 /*why do yoga*/
 .heading-one {
@@ -141,13 +150,13 @@ hr {
 /*video text styled*/
 .video-one{
     height: 100%;
-    width: 50%;   
+      
     text-align: center; 
 }
 /*video text styled*/
 .video-two{
     height: 100%;
-    width: 50%;
+   
     text-align: center; 
 }
 /*yoga power styled*/
@@ -200,13 +209,14 @@ hr {
 }
 /*text styled on teachers*/
 .teach-text{
-text-align: right;
+text-align: left;
 }
 #teach{
     text-align: center;
 }
 #teach2{
     text-align: center;
+    font-size: x-large;
 }
 #end{
     height: 300px;
