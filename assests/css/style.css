@@ -6,7 +6,6 @@
     border: none;
 
 }
-
 body {
     font-family: 'Noto Sans KR', sans-serif;  
     font-weight: 300; 
@@ -131,6 +130,7 @@ hr {
     grid-gap: 75px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
 }
 /*why do yoga*/
 .heading-one {
@@ -218,11 +218,12 @@ hr {
     margin: 0 auto;
 
 }
-.circle-teach{
-    height: 100%;
-    border-radius: 50%;
-    background: no-repeat center center;
-    
+.list{
+    color: #ed7014;
+    font: inherit
+}
+ul{
+    list-style-type: none;
 }
 .teach-text{
 text-align: left;
