@@ -13,6 +13,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 1800px;
+    padding: 1rem;
 }
 /* Headings and Logos */
 h1, h2 {
@@ -34,7 +35,7 @@ h1, h2 {
 
 /* nav links & logo style*/
 #nav {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 4px;
     float: right;
 }
@@ -74,6 +75,10 @@ h1, h2 {
     animation-name: hero-zoomer;
     animation-duration: 6.7s;
     animation-fill-mode: forwards;
+      /* grid styles */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    align-items: center;
 }
 /* animates hero image with zoom effect */
 @keyframes hero-zoomer {
@@ -108,77 +113,52 @@ transform: scale(1.153);
 /*hr styled*/
 hr {
     border: 0;
-    width: 100%; 
-                
+    width: 100%;                 
     background-color:#3a3a3a;
     height: 2px;
   }
-#yoga-ethos {
-    height: 600px;
-}
-/*grid box for two divs*/
-.container
-{
-    display: flex;
-   /*grid-template-columns: 1fr 1fr;
-    grid-gap: 20px; */
-    padding-left: 150px;
-    padding-right: 150px;
-}
-/*grid box for 3 divs*/
-.grid-container-two
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 75px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-}
-/*why do yoga*/
-.box {
-    flex-direction: column; 
-    line-height: 20px;
-    text-align: left;
-    margin-left: 150px;
-}
-/* what is yoga */ 
-. {
-     
-    line-height: 20px;
-    text-align: right;
-    margin-right: 150px;
-}
-/*video text styled*/
-.video-one{
-    height: 100%;
-      
-    text-align: center; 
-}
-/*video text styled*/
-.video-two{
-    height: 100%;
-   
-    text-align: center; 
-}
 /*yoga power styled*/
 #welcome
-{
+{ 
     text-align: center;
     margin: 10px 0;
     font-size: 200%;
 }
-/*cirled picture*/
-#container-one{
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
+/*grid*/
+.grid-container
+{
+    display: grid;
+    grid-gap: 1rem; 
+    padding: 1rem;
+    max-width: 1200px;
     margin: 0 auto;
+}
+@media (min-width: 600px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+    #logo{
+        text-align: center;
+    }
+  }
+/* what is yoga */ 
+.box-one {
+    line-height: 20px;
+    text-align: right;
 
+    padding: 1rem;
+ 
+}
+/* why do yoga*/
+.box-two{
+     
+    line-height: 20px;
+    text-align: left;
+    padding: 1rem;
+
+}
+/*video text styled*/
+.video{
+    height: 100%;     
+    text-align: center; 
 }
 /*image within circle 1*/
 #circle-one{
@@ -186,12 +166,8 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
-.image{
-    width: 25%;
-
-}
 /*cirled picture*/
-#container-2{
+.container{
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -200,8 +176,6 @@ hr {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-    outline: 1px solid red;
-
 }
 /*image within circle 1*/
 #circle-2{
@@ -209,18 +183,6 @@ hr {
     height: 100%;
     border-radius: 50%;
     
-}
-/*text styled on instructors*/
-.container-teach{
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-
 }
 .list{
     color: #ed7014;
@@ -239,17 +201,10 @@ text-align: left;
     text-align: center;
     font-size: x-large;
 }
-#end{
+.footer{
     height: 300px;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
 }
-/*
-.col-1 {width: 50%;}
-.col-2 {width: 50%;}
-.col-3 {width: 50%;}
-.col-4 {width: 50%;}
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: 
-    [class*="col-"] {
-      width: 100%;
-    }
-  }*/
+
