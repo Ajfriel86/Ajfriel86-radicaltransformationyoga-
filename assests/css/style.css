@@ -132,19 +132,25 @@ hr {
     padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+@media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
 @media (min-width: 600px) {
     .grid-container { grid-template-columns: repeat(2, 1fr); }
     #logo{
         text-align: center;
     }
+    .box-one{height: auto;}
+    .box-two{height:auto;}
   }
 /* what is yoga */ 
 .box-one {
     line-height: 20px;
     text-align: right;
-    height: 30rem;
-    padding: 1rem;
+    height: auto;
+   
  
 }
 /* why do yoga*/
@@ -152,9 +158,8 @@ hr {
      
     line-height: 20px;
     text-align: left;
-    height:30rem;
-    padding: 1rem;
-
+    height:auto;
+    
 }
 /*video text styled*/
 .video{
