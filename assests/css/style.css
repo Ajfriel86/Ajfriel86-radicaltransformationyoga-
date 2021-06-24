@@ -27,7 +27,6 @@ h1, h2 {
     font-family: 'Noto Sans KR', sans-serif;
     float: left;
     color: #252525;
-    size: 50%;
     margin-left: 30px;
     text-decoration: none;
 
@@ -42,19 +41,16 @@ h1, h2 {
 #nav, #logo {
     line-height: 75px;
 }
-#nav li {
-    list-style-type: none;
-    margin-right: 30px;
-    display: inline;
-}
 #nav a {
     text-decoration: none;
     color: inherit;
+    padding: 1rem;
 
 }
 #nav a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /*Text box within the hero image*/
 #cover-text, #cover-text h2{
     color: #fff ;
@@ -134,16 +130,11 @@ hr {
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-@media (min-width: 900px) {
-    .cards { grid-template-columns: repeat(3, 1fr); }
-  }
 @media (min-width: 600px) {
     .grid-container { grid-template-columns: repeat(2, 1fr); }
-    #logo{
-        text-align: center;
-    }
     .box-one{height: auto;}
     .box-two{height:auto;}
+    #nav a {float: none;width: 100%;}    
   }
 /* what is yoga */ 
 .box-one {
