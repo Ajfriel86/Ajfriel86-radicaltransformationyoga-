@@ -9,7 +9,7 @@
 body {
     font-family: 'Noto Sans KR', sans-serif;  
     font-weight: 300; 
-    color: #3a3a3a; 
+    color: #36454F; 
     margin-left: auto;
     margin-right: auto;
     max-width: 1800px;
@@ -20,13 +20,17 @@ h1, h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #333333;
+}
+/*H4 style */
+h4{
+    margin-bottom: 10px;;
 }
 /* Transformaitive yoga styled*/
 #logo {
     font-family: 'Noto Sans KR', sans-serif;
     float: left;
-    color: #252525;
+    color: #333333;
     margin-left: 30px;
     text-decoration: none;
 
@@ -47,10 +51,10 @@ h1, h2 {
     padding: 1rem;
 
 }
+/*styles a line under the nav whe nyou hover*/
 #nav a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #333333;
 }
-
 /*Text box within the hero image*/
 #cover-text, #cover-text h2{
     color: #fff ;
@@ -63,6 +67,7 @@ h1, h2 {
     overflow: hidden;
     position: relative;
 }
+/*hero image for landing page*/
 #hero {
     height: 600px;
     width: 100%;
@@ -76,28 +81,36 @@ h1, h2 {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     align-items: center;
 }
-/* animates hero image with zoom effect */
+/* animates hero image for landing page with zoom effect */
 @keyframes hero-zoomer {
-from {
-transform: scale(1);
-}
-to{
-transform: scale(1.153);
-}
+from {transform: scale(1);}
+to
+{transform: scale(1.25);}}
+/*hero image for every page except landing page*/
+#hero-rest {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/yoga.jpg');
+      /* grid styles */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    align-items: center;
+    /*keeps image the same size as the landing page*/
+    transform: scale(1.25);
 }
 /*text box within the hero image styled*/
 #cover-text {
     font-size: 100%;
     font-family: 'Noto Sans KR', sans-serif;  
     text-transform: uppercase;
-    letter-spacing: 4px;
-    text-align:justify;
-    width: 200px;
-    height: 200px;
-    padding-top:45px;
+    letter-spacing: 6.5px;
+    text-align:center;
+    width: 800px;
+    height: 100px;
+    padding-top:70px;
     padding-left: 15px;
     background-color: rgba(190, 144, 212,.7);
-    bottom: 25px;
+    bottom: 30px;
     right: 145px;
     position: absolute;
 }
@@ -112,6 +125,8 @@ hr {
     width: 100%;                 
     background-color:#3a3a3a;
     height: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 /*yoga power styled*/
 #welcome
