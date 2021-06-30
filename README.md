@@ -11,25 +11,53 @@ Existing Features</h2>
 
 <h2>Browser Icon</h2>
 I replaced the oringal world icon with a "burn-alt" from fontawesome. This was done my using: https://gauger.io/fonticon/ to download the fontawesome icone and then embeded it into the header to create the burn icon on the browser tab. 
+
 <img src="/assets/Read_Me_Images/browser.png">
 
 <h2>Navigation Bar</h2>
 The fully responsive navigation bar will have three pages, home(index.html), clases(classes.html) and sign up(singup.html). The nav bar will be across all three pages. 
-This will allow the user to easily navigate across the website. 
+This will allow the user to easily navigate across the website.
+
+<img src="/assets/Read_Me_Images/NavBar.png">
     
 <h2>The Landing Page (index.html)</h2>
-This is the focus of the page. It will have a hero image with some captions and below this will display the benefits of yoga and these benefits will be accompanied by various yoga icons and/or images. This is to inspire the user about the benefits they will recieve if they were to particpate in a yoga class or classes. 
-Below this section, there will be some videos of classes taking place with instructors and some pictures to help show the user what they will be in for if they were to participate in a class.
+This is the focus of the page. It will have a hero image with some captions and below this will display the benefits of yoga and these benefits will be accompanied by yoga icons/images wrapped in a circle. 
+
+<img src="/assets/Read_Me_Images/HeroHead.png">
+
+This is to inspire the user about the benefits they will recieve if they were to particpate in a yoga class or classes. 
+
+<img src="/assets/Read_Me_Images/what.png">
+
+<img src="/assets/Read_Me_Images/why.png">
+
 The footer will have links to facebook, instagram, and youtube, as well an email link to directly contact the studio. 
 
-<h2>Classes(classes.html)</h2>
-This page will have the various classes a user can take part in. From introduction classes to yoga training classes. These clases will have accompying pctures and videos. Each class displayed will have a sign-up button that wil take them to the sign-up page.
+<img src="/assets/Read_Me_Images/footer.png">
+
+
+<h2>Courses(courses.html)</h2>
+This page will have the various classes a user can take part in. From introduction classes to yoga training classes. 
+
+<img src="/assets/Read_Me_Images/courses1.png">
+
+These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes. 
+
+<img src="/assets/Read_Me_Images/courses2.png">
+
+Below this secton of this page there will be two videos that a user can watch and get a feel for what the studio might offer during a class.
+
+<img src="/assets/Read_Me_Images/courses-video.png">
 
 <h2>Instructors(instructors.html)</h2>
-I originally had this on the landing page and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with  their backgrounds in yoga as well the classes the teach and at what times. There is also two videos at the bottom of the page to help introduce new comers to yoga. 
+I originally had this on the landing page and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with  their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructors picture with their bio beside them and the class times underneath thier picture. 
+
+<img src="/assets/Read_Me_Images/instructors.png">
 
 <h2>Sign Up(signup.html)</h2>
-This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries.
+This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries. It will have a drop down menu with different queries that the user can ask in relation to the topic they wish to discuss. also, next to this will be a google-map of where the studio is located so the user can find the studio easily.
+
+<img src="/assets/Read_Me_Images/contact.png">
 
 <h2>Technologies used</h2> 
 This project consists of pure HTML5 and CSS.
