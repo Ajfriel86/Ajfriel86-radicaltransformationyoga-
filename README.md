@@ -75,7 +75,7 @@ I had a problem with overlapping divs when the screen was reduced for mobile use
 
 <h2>Social Icons on Footer:</h2>
 
-For the life of me i could not firgure out why these icons would not algin in a row and not a coloumn. It turns out i was over complicating the issue. I added them to a list and tried to arrange that into Display, inline but nothing was work. After a quick gogle on my issue I then realised the <i> is an inline tag anyway, like <iframe> so once i reverted them back without a list the problem was resolved. 
+For the life of me i could not firgure out why these icons would not algin in a row and not a coloumn. It turns out i was over complicating the issue. I added them to a list and tried to arrange that into Display, inline but nothing was work. After a quick gogle on my issue I then realised the i-tag is an inline tag anyway, like <iframe> so once i reverted them back without a list the problem was resolved. 
 
 <h2>Deployment</h2>
 
