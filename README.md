@@ -6,8 +6,7 @@ This is my first milestone projetc and I chose to take on this project by builin
   
 <h2>Features</h2>
 This website will have information regarding yoga classes, both online and in studio. It is for anyone who wants to know more about yoga and this business’ yoga classes. 
-
-Existing Features</h2>
+<h2>Existing Features</h2>
 
 <h2>Browser Icon</h2>
 I replaced the oringal world icon with a "burn-alt" from fontawesome. This was done my using: https://gauger.io/fonticon/ to download the fontawesome icone and then embeded it into the header to create the burn icon on the browser tab. 
@@ -70,19 +69,19 @@ Grid-box
 
 My grid box was non-responsive and all jumbled up on the screen. It took a while to figure it out but i realised i had multiple grids on the screen. Once I realised this and condensed the grids into one grid the issue was resolved. 
 
-<h2>Overlapping DIVS:    
+<h2>Overlapping DIVS:</h2>   
 
 I had a problem with overlapping divs when the screen was reduced for mobile use. Thankfully I discovered unicorn revealer which helped me to identify the problem. It was the padding and the height. I removed the padding altogether and set the height to auto. This helped to resolve the issue. 
 
-<h2>Social Icons on Footer:
+<h2>Social Icons on Footer:</h2>
 
 For the life of me i could not firgure out why these icons would not algin in a row and not a coloumn. It turns out i was over complicating the issue. I added them to a list "<ul>," and tried to arrange that into "Display: inline" but nothing work. After a quick gogle on my issue I then realised the "<i>" is an inline tag anyway, like "<iframe>" so once i reverted them back without a list the problem was resolved. 
 
-<h2>Deployment
+<h2>Deployment</h2>
 
     
 
-<h2>Where I got my idea and content for a yoga website :
+<h2>Where I got my idea and content for a yoga website :</h2>
 
 https://www.nhs.uk/live-well/exercise/guide-to-yoga/#:~:text=Yoga%20is%20an%20ancient%20form,strength%20and%20flexibility)%20and%20breathing.
 
@@ -94,7 +93,7 @@ https://yoga.ie/
 
 https://www.yogajournal.com/lifestyle/health/womens-health/count-yoga-38-ways-yoga-keeps-fit/
 
-    Videos I used for the courses page.
+<h2> Videos I used for the courses page.</h2>
 
 https://www.youtube.com/watch?v=8T39OBNaNzU
 
