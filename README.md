@@ -21,42 +21,42 @@ This will allow the user to easily navigate across the website.
 <img src="/assets/Read_Me_Images/NavBar.png">
     
 <h2>The Landing Page (index.html)</h2>
-This is the focus of the page. It will have a hero image with some captions and below this will display the benefits of yoga and these benefits will be accompanied by yoga icons/images wrapped in a circle. 
+<li>This is the focus of the page. It will have a hero image with some captions and below this will display the benefits of yoga and these benefits will be accompanied by yoga icons/images wrapped in a circle. </li>
 
 <img src="/assets/Read_Me_Images/HeroHead.png">
-
-This is to inspire the user about the benefits they will recieve if they were to particpate in a yoga class or classes. 
+<ul>
+<li>This is to inspire the user about the benefits they will recieve if they were to particpate in a yoga class or classes. </li>
 
 <img src="/assets/Read_Me_Images/what.png">
 
 <img src="/assets/Read_Me_Images/why.png">
 
-The footer will have links to facebook, instagram, and youtube, as well an email link to directly contact the studio. 
+<li>The footer will have links to facebook, instagram, and youtube, as well an email link to directly contact the studio. </li>
 
 <img src="/assets/Read_Me_Images/footer.png">
 
 
 <h2>Courses(courses.html)</h2>
-This page will have the various classes a user can take part in. From introduction classes to yoga training classes. 
+<li>This page will have the various classes a user can take part in. From introduction classes to yoga training classes. </li>
 
 <img src="/assets/Read_Me_Images/courses1.png">
 
-These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes. 
+<li>These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes.</li>
 
 <img src="/assets/Read_Me_Images/courses2.png">
 
-Below this secton of this page there will be two videos that a user can watch and get a feel for what the studio might offer during a class.
+<li>Below this secton of this page there will be two videos that a user can watch and get a feel for what the studio might offer during a class.</li>
 
 <img src="/assets/Read_Me_Images/courses-video.png">
 
 <h2>Instructors(instructors.html)</h2>
-I originally had this on the landing page and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with  their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructors picture with their bio beside them and the class times underneath thier picture. 
+<li>I originally had this on the landing page and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with  their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructors picture with their bio beside them and the class times underneath thier picture. </li>
 
 <img src="/assets/Read_Me_Images/instructors.png">
 
 <h2>Sign Up(signup.html)</h2>
-This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries. It will have a drop down menu with different queries that the user can ask in relation to the topic they wish to discuss. also, next to this will be a google-map of where the studio is located so the user can find the studio easily.
-
+<li>This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries. It will have a drop down menu with different queries that the user can ask in relation to the topic they wish to discuss. also, next to this will be a google-map of where the studio is located so the user can find the studio easily.</li>
+</ul>
 <img src="/assets/Read_Me_Images/contact.png">
 
 <h2>Technologies used</h2> 
