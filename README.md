@@ -1,6 +1,5 @@
-<h1>Project-Name: Transformitive Yoga - Angus Friel</h1>
-This is my first milestone projetc and I chose to take on this project by builing a website for a yoga studio that offers online and studio based yoga classes. I chose this topic as I have a friend that is a yoga instructor so obtain the content was very easy. I also used other sites and content ot help flesh it out.  
-
+<h1>Project-Name: Transformative Yoga - Angus Friel</h1>
+This is my first milestone projetc and I chose to take on this project by builing a website for a yoga studio that offers online and studio-based yoga classes. I chose this topic as I have a friend that is a yoga instructor so obtain the content was very easy. I also used other sites and content ot help flesh it out.  
 
 
   
@@ -25,28 +24,31 @@ This will allow the user to easily navigate across the website.
 <h3>The Landing Page (index.html)</h3>
 <br />
 <li>This is the focus of the page. It will have a hero image with some captions and below this will display the benefits of yoga and these benefits will be accompanied by yoga icons/images wrapped in a circle. </li>
+<li>The value of this page is to discribe what yoga is and why it can benefit them. This is done by break it down in to those to very simple categories. Whta is Yoga, and, Why do Yoga. This in turn is to inspire the user about yoga and to go further into the site to see what is on offer for them.
+</li>
 <br />
 <img src="/assets/Read_Me_Images/HeroHead.png">
 <br />
 <ul>
-<li>This is to inspire the user about the benefits they will recieve if they were to particpate in a yoga class or classes. </li>
+<li>The first image and text the user see is, What is yoga. Here, it is explained very simply for the user </li>
 <br />
 <img src="/assets/Read_Me_Images/what.png">
 <br />
+<li>The second image and text on the landing page is, Why do Yoga? Here the site lists the reason why the user will have a benefiacal experince when the participate in a yoga class, or several classes.</li>
 <img src="/assets/Read_Me_Images/why.png">
 <br />
-<li>The footer will have links to facebook, instagram, and youtube, as well an email link to directly contact the studio. </li>
+<li>The footer will have links to facebook, instagram, and youtube, as well an email link to directly contact the studio. This will be across all pages</li>
 <br />
 <img src="/assets/Read_Me_Images/footer.png">
 <br />
 
 <h3>Courses(courses.html)</h3>
 <br />
-<li>This page will have the various classes a user can take part in. From introduction classes to yoga training classes. </li>
+<li>This page will have the various classes a user can take part in. From introduction classes to yoga training classesand preganacy yoga for mother to be. </li>
 <br />
 <img src="/assets/Read_Me_Images/courses1.png">
 <br />
-<li>These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes.</li>
+<li>The classes listed are of value to the user so they can see what will fit with there schedule. These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes.</li>
 <br />
 <img src="/assets/Read_Me_Images/courses2.png">
 <br />
@@ -56,13 +58,15 @@ This will allow the user to easily navigate across the website.
 <br />
 <h3>Instructors(instructors.html)</h3>
 <br />
-<li>I originally had this on the landing page and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with  their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructors picture with their bio beside them and the class times underneath thier picture. </li>
+<li>I originally had this on the landing page, and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructor’s picture with their bio beside them and the class times underneath thier picture. </li>
+<li>The user will be able to see the various instructors and their styles and available times when they teach their classes. This will be very useful to the user when consider a style of yoga, a certain class, or just for interest in their future need if they wish to progress into training to become a yoga instructor themselves.</li>
 <br />
 <img src="/assets/Read_Me_Images/instructor.png">
 <br />
 <h3>Sign Up(signup.html)</h3>
 <br />
-<li>This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries. It will have a drop down menu with different queries that the user can ask in relation to the topic they wish to discuss. also, next to this will be a google-map of where the studio is located so the user can find the studio easily.</li>
+<li>This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries. It will have a drop-down menu with different queries that the user can ask in relation to the topic they wish to discuss. This will aid the user to reach out to the studio to beign their yoga journey. </li>
+<li>Also, next to this will be a google-map of where the studio is located so the user can find the studio easily. Although it states that because of Covid-19 that it is currently closed.</li>
 </ul>
 <br />
 <img src="/assets/Read_Me_Images/contact.png">
@@ -77,11 +81,11 @@ This project consists of pure HTML5 and CSS.
 <br />
 Grid-box 
 <br />
-My grid box was non-responsive and all jumbled up on the screen. It took a while to figure it out but i realised i had multiple grids on the screen. Once I realised this and condensed the grids into one grid the issue was resolved. 
+My grid box was non-responsive, and all jumbled up on the screen. It took a while to figure it out but i realised i had multiple grids on the screen. Once I realised this and condensed the grids into one grid the issue was resolved. 
 <br />
 <h3>Overlapping DIVS:</h3>   
 <br />
-I had a problem with overlapping divs when the screen was reduced for mobile use. Thankfully I discovered unicorn revealer which helped me to identify the problem. It was the padding and the height. I removed the padding altogether and set the height to auto. This helped to resolve the issue. 
+I had a problem with overlapping divs when the screen was reduced for mobile use. Thankfully, I discovered unicorn revealer which helped me to identify the problem. It was the padding and the height. I removed the padding altogether and set the height to auto. This helped to resolve the issue. 
 <br />
 <h3>Social Icons on Footer:</h3>
 <br />
@@ -89,7 +93,7 @@ For the life of me i could not firgure out why these icons would not algin in a 
 <br />
 <h3>HTML</h3>
 <br />
-I had a few problems with random unclosed div's and other tags not being closed, as well as id's being used twice. All of this was found once I ran my code through W3 Validator and all errors were then corrected. 
+I had a few problems with random unclosed div’s, and other tags not being closed, as well as id's being used twice. All of this was found once I ran my code through W3 Validator and all errors were then corrected. 
 <br />
 <h3>CSS</h3>
 <br />
@@ -117,5 +121,6 @@ https://www.youtube.com/watch?v=8T39OBNaNzU
 <br />
 https://www.youtube.com/watch?v=4C-gxOE0j7s
 <br />
+
 
 
