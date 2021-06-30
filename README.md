@@ -15,7 +15,7 @@ I replaced the oringal world icon with a "burn-alt" from fontawesome. This was d
 <img src="/assets/Read_Me_Images/browser.png">
 
 <h2>Navigation Bar</h2>
-The fully responsive navigation bar will have three pages, home(index.html), clases(classes.html) and sign up(singup.html). The nav bar will be across all three pages. 
+The fully responsive navigation bar will have three pages, home(index.html), courses(courses.html) and sign up(singup.html). The nav bar will be across all three pages. 
 This will allow the user to easily navigate across the website.
 
 <img src="/assets/Read_Me_Images/NavBar.png">
@@ -47,12 +47,12 @@ This will allow the user to easily navigate across the website.
 
 <li>Below this secton of this page there will be two videos that a user can watch and get a feel for what the studio might offer during a class.</li>
 
-<img src="/assets/Read_Me_Images/courses-video.png">
+<img src="/assets/Read_Me_Images/courses-videos.png">
 
 <h2>Instructors(instructors.html)</h2>
 <li>I originally had this on the landing page and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with  their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructors picture with their bio beside them and the class times underneath thier picture. </li>
 
-<img src="/assets/Read_Me_Images/instructors.png">
+<img src="/assets/Read_Me_Images/instructor.png">
 
 <h2>Sign Up(signup.html)</h2>
 <li>This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries. It will have a drop down menu with different queries that the user can ask in relation to the topic they wish to discuss. also, next to this will be a google-map of where the studio is located so the user can find the studio easily.</li>
