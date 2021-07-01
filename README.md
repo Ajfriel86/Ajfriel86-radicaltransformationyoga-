@@ -11,13 +11,14 @@ This website will have information regarding yoga classes, both online and in st
 ### Browser Icon
 I replaced the oringal world icon with a "burn-alt" from fontawesome. This was done my using: https://gauger.io/fonticon/ to download the fontawesome icone and then embeded it into the header to create the burn icon on the browser tab. 
 
-<img src="/assets/Read_Me_Images/browser.png">
+![Browers](./assets/Read_Me_Images/browser.png)
+
 
 ### Navigation Bar
 The fully responsive navigation bar will have three pages, home(index.html), courses(courses.html) and sign up(singup.html). The nav bar will be across all three pages. 
 This will allow the user to easily navigate across the website.
 
-<img src="/assets/Read_Me_Images/NavBar.png">
+![Nav Bar](./assets/Read_Me_Images/NavBar.png)
 
 ## Website Pages
   
@@ -122,21 +123,21 @@ I had one missing curly bracket from my CSS that was spotted once I ran it throu
 
 ## Where I got my idea and content for a yoga website
 
-https://www.nhs.uk/live-well/exercise/guide-to-yoga/#:~:text=Yoga%20is%20an%20ancient%20form,strength%20and%20flexibility)%20and%20breathing.
+![NHS](https://www.nhs.uk/live-well/exercise/guide-to-yoga/#:~:text=Yoga%20is%20an%20ancient%20form,strength%20and%20flexibility)%20and%20breathing.)
 
-https://www.instagram.com/radicaltransformationyoga/
+![Instagram](https://www.instagram.com/radicaltransformationyoga/)
 
-https://www.facebook.com/Radicaltransformationyoga
+![Facebook](https://www.facebook.com/Radicaltransformationyoga)
 
-https://yoga.ie/
+![Yoga Room](https://yoga.ie/)
 
-https://www.yogajournal.com/lifestyle/health/womens-health/count-yoga-38-ways-yoga-keeps-fit/
+![Yoga Journal](https://www.yogajournal.com/lifestyle/health/womens-health/count-yoga-38-ways-yoga-keeps-fit/)
 
 ##  Videos I used for the courses page.
 
-https://www.youtube.com/watch?v=8T39OBNaNzU
+![YouTube Video 1](https://www.youtube.com/watch?v=8T39OBNaNzU)
 
-https://www.youtube.com/watch?v=4C-gxOE0j7s
+![YouTube Video 2](https://www.youtube.com/watch?v=4C-gxOE0j7s)
 
 
 
