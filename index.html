@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/images/favicon.ico">
     <script src="https://kit.fontawesome.com/6d30fc82e7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
     <title>Transformative Yoga</title>
 </head>
 <body>
@@ -20,7 +23,8 @@
                 <!--Nav Bar in Top right of Screen-->
                 <nav id="nav">
                     
-                    <a href="index.html" aria-label="Go to top of the page">Home</a>                      
+                    <a href="index.html" aria-label="Go to top of the page">Home</a>  
+                    <a href="index_copy.html" aria-label="Go to top of the page">Home2</a>                      
                     <a href="courses.html" aria-label="Go to the courses page">Courses</a>
                     <a href="instructors.html" aria-label="Go to the instructors page">Instructors</a>
                     <a href="contact.html" aria-label="Go to the contact or sign up page">Contact</a>
@@ -44,16 +48,17 @@
         <!--Title on PAge under hero image-->
         <h2 id="welcome" class="margin">Yoga Power!</h2>
        
-        <section class="margin">      
-            <div class="grid-container">
+        <section class="margin"> 
+        <div class="container">         
+            <div class="row">
                         <!--image in circle next to What is Yoga-->
-                        <div class="box-one"  aria-labelledby="yoga-description">
-                            <div class="container">
+                        <div class="col-sm-4" aria-labelledby="yoga-description">
+                            <div class="pic-container">
                                 <div id="circle-2"></div>
                             </div>
                         </div>   
 
-                            <div  class="box-one" id="yoga-description">
+                            <div  class="col-sm-8" class="box-one" id="yoga-description">
                                  <!--Heading and Text for What is Yoga-->
                                 <h2>What is yoga?</h2>
                                 <hr>
@@ -81,8 +86,10 @@
                                 </p>
                                 <br />
                             </div>
-
-                                <div class="box-two" aria-labelledby="doing-yoga">
+            </div>>
+            <div class="row">    
+               
+                                <div  class="col-sm-8" class="box-one" id="yoga-description">
                                      <!--Heading and Text for why do Yoga-->
                                     <h2>Why Do yoga?</h2>
                                     <hr>
@@ -104,15 +111,16 @@
                                         </p>                                 
                                 </div>
 
-                                <div class="box-two">
+                                <div class="col-sm-4">
                                      <!--image in circle next to Why do Yoga-->
-                                    <div class="container">
+                                    <div class="pic-container">
                                         <div id="circle-one">
                                         </div>
                                     </div>
                                 </div>                   
-                    </div>
-            </section>
+            </div>
+        </div>    
+        </section>
     </section>   
         
 
