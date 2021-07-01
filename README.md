@@ -70,7 +70,7 @@ This project consists of pure HTML5 and CSS.
 
 ## Testing
 
-* During testing of the site, I ran into some problems while testing the site out on a smaller screen. On a wide screen the site worked fine but the hero text on the hero image would not respond to resizing. Below is the wide screen image.
+During testing of the site, I ran into some problems while testing the site out on a smaller screen. On a wide screen the site worked fine but the hero text on the hero image would not respond to resizing. Below is the wide screen image.
 
 ![Hero Image](./assets/Read_Me_Images/hero.png.)
 
@@ -90,6 +90,21 @@ This project consists of pure HTML5 and CSS.
 
 ![Hero Fixed](./assets/Read_Me_Images/hero-fixed.png)
 
+### Non-Responsive Screens
+I found from moving from screen to screen that none of my elements would comply with media queries. So I made the choice to move to bootstrap. Below are picture of some of the issues I was having. 
+
+*_Here my divs would not align_
+![Divs Not Moving](./assets/Read_Me_Images/bug1.png)
+*_and again_
+![Divs not moving part 2](./assets/Read_Me_Images/bug2.png)
+*_This problem persisted across all my pages_
+![Rigid divs](./assets/Read_Me_Images/bug3.png)
+*_I had a fully functionaly site on a big screen but grid/flex and media queries where not working for me_
+![Oblongs](./assets/Read_Me_Images/bug4.png)
+
+*Now I have a functioning site thanks to bootstrap
+![Bug fixed](./assets/Read_Me_Images/bugfix.png)
+![Bug fixed](./assets/Read_Me_Images/bugfix2.png)
 ## Bugs
 
 ### Grid-box 
