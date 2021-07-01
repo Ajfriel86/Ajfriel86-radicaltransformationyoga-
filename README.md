@@ -123,21 +123,20 @@ I had one missing curly bracket from my CSS that was spotted once I ran it throu
 
 ## Where I got my idea and content for a yoga website
 
-![NHS](https://www.nhs.uk/live-well/exercise/guide-to-yoga/#:~:text=Yoga%20is%20an%20ancient%20form,strength%20and%20flexibility)%20and%20breathing.)
 
-![Instagram](https://www.instagram.com/radicaltransformationyoga/)
+[Instagram](https://www.instagram.com/radicaltransformationyoga/)
 
-![Facebook](https://www.facebook.com/Radicaltransformationyoga)
+[Facebook](https://www.facebook.com/Radicaltransformationyoga)
 
-![Yoga Room](https://yoga.ie/)
+[Yoga Room](https://yoga.ie/)
 
-![Yoga Journal](https://www.yogajournal.com/lifestyle/health/womens-health/count-yoga-38-ways-yoga-keeps-fit/)
+[Yoga Journal](https://www.yogajournal.com/lifestyle/health/womens-health/count-yoga-38-ways-yoga-keeps-fit/)
 
 ##  Videos I used for the courses page.
 
-![YouTube Video 1](https://www.youtube.com/watch?v=8T39OBNaNzU)
+[YouTube Video 1](https://www.youtube.com/watch?v=8T39OBNaNzU)
 
-![YouTube Video 2](https://www.youtube.com/watch?v=4C-gxOE0j7s)
+[YouTube Video 2](https://www.youtube.com/watch?v=4C-gxOE0j7s)
 
 
 
