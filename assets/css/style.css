@@ -60,6 +60,9 @@ h4{
     color: #fff ;
 
 }
+@media only screen and (min-width: 600px) {
+   body #nav a {float: none;width: 100%;}  
+}
 /* hero image */
 #hero-outer {
     height: 600px;
@@ -99,19 +102,19 @@ to
     transform: scale(1.25);
 }
 /*text box within the hero image styled*/
+
 #cover-text {
-    font-size: 100%;
+    text-align: center;
+    font-size: 120%;
     font-family: 'Noto Sans KR', sans-serif;  
     text-transform: uppercase;
-    letter-spacing: 6.5px;
-    text-align:center;
-    width: 800px;
-    height: 100px;
-    padding-top:70px;
+    letter-spacing: 10px;
+    width: 100%;
+    height: 60px;
+    padding-top:30px;
     padding-left: 15px;
     background-color: rgba(190, 144, 212,.7);
-    bottom: 30px;
-    right: 145px;
+    bottom: 25px;
     position: absolute;
 }
 /*adds a margin botton to everything with this class name*/
@@ -145,27 +148,30 @@ hr {
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-@media (min-width: 600px) {
-    .grid-container { grid-template-columns: repeat(2, 1fr); }
-    .box-one{height: auto;}
-    .box-two{height:auto;}
-    #nav a {float: none;width: 100%;}    
-  }
+@media only screen and (min-width: 600px) {
+    body .grid-container { grid-template-columns: repeat(2, 1fr); }
+}
+  
 /* what is yoga */ 
-.box-one {
+body .box-one {
     line-height: 20px;
     text-align: right;
     height: auto;
    
  
 }
+@media only screen and (min-width: 600px) {    
+   body .box-one{height: auto;}
+}
 /* why do yoga*/
-.box-two{
+body .box-two{
      
     line-height: 20px;
     text-align: left;
-    height:auto;
-    
+    height:auto;   
+}
+@media only screen and (min-width: 600px) {
+    .box-two{height:auto;}  
 }
 /*video text styled*/
 .video{
