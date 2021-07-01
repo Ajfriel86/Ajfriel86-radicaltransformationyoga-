@@ -1,7 +1,6 @@
 # Project-Name: Transformative Yoga - Angus Friel
 This is my first milestone projetc and I chose to take on this project by builing a website for a yoga studio that offers online and studio-based yoga classes. I chose this topic as I have a friend that is a yoga instructor so obtain the content was very easy. I also used other sites and content ot help flesh it out.  
 
-
   
 ## Features
 <br />
@@ -11,11 +10,10 @@ This website will have information regarding yoga classes, both online and in st
 ### Browser Icon
 I replaced the oringal world icon with a "burn-alt" from fontawesome. This was done my using: [Gauger](https://gauger.io/fonticon/) to download the fontawesome icone and then embeded it into the header to create the burn icon on the browser tab. 
 
-![Browers](./assets/Read_Me_Images/browser.png)
-
+![Brower](./assets/Read_Me_Images/browser.png)
 
 ### Navigation Bar
-The fully responsive navigation bar will have three pages, home(index.html), courses(courses.html) and sign up(singup.html). The nav bar will be across all three pages. 
+The fully responsive navigation bar will have four pages, home(index.html), courses(courses.html), instructors(instructors.html) and contact(contact.html). The nav bar will be across all three pages. The user can also click on the logo in the top left of the page, Transformative Yoga, to navigate back to the landing page.
 This will allow the user to easily navigate across the website.
 
 ![Nav Bar](./assets/Read_Me_Images/NavBar.png)
@@ -25,19 +23,17 @@ This will allow the user to easily navigate across the website.
 ### The Landing Page
 
 * This is the focus of the page. It will have a hero image with some text. I used keyframes here to show the image expanding towards the user. I only used keyframes on the landing page but had a static image for the rest of the pages on the website. Below the hero image there will be displayed the benefits of yoga and these benefits will be accompanied by yoga icons/images wrapped in a circle. 
-* The value of this page is to discribe what yoga is and why it can benefit them. Originally I had the page too clutered and then decided to strip it back with the bear essentials for the user. This is done by breaking it down in to those to very simple categories. What is Yoga, and, Why do Yoga. This in turn is to inspire the user about yoga and to go further into the site to see what is on offer for them.
+* The value of this page is to discribe what yoga is and why it can benefit them. Originally, I had the page too clutered and then decided to strip it back with the bear essentials for the user. This is done by breaking it down in to those to very simple categories. What is Yoga, and, Why do Yoga. This in turn is to inspire the user about yoga and to go further into the site to see what is on offer for them.
 
 ![Hero](./assets/Read_Me_Images/HeroHead.png)
 
-
-* _The first image and text the user see is, What is yoga. Here, it is explained very simply for the user._
+* _The first image and text the user see is, What is yoga. Here, it is explained very simply for the user. _
 ![What is Yoga](./assets/Read_Me_Images/what.png)
 
-
-* _The second image and text on the landing page is, Why do Yoga? Here the site lists the reason why the user will have a benefiacal experince when the participate in a yoga class, or several classes._
+* _The second image and text on the landing page is, Why do Yoga? Here the site lists the reason why the user will have a benefiacal experince when the participate in a yoga class, or several classes. _
 ![Why Do Yoga](./assets/Read_Me_Images/why.png)
 
-* _The footer will have links to facebook, instagram, and youtube, as well an email link to directly contact the studio. This will be across all pages._
+* _The footer will have links to facebook, instagram, and youtube, as well an email link to directly contact the studio. This will be across all pages. _
 
 ![Footer](./assets/Read_Me_Images/footer.png)
 
@@ -47,15 +43,13 @@ This will allow the user to easily navigate across the website.
 
 ![Courses image](./assets/Read_Me_Images/courses1.png)
 
-
-* _The classes listed are of value to the user so they can see what will fit with there schedule. These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes._
+* _The classes listed are of value to the user so they can see what will fit with there schedule. These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes. _
 
 ![Courses Image 2](./assets/Read_Me_Images/courses2.png)
 
-* _Below this secton of this page there will be two videos that a user can watch and get a feel for what the studio might offer during a class._
+* _Below this secton of this page there will be two videos that a user can watch and get a feel for what the studio might offer during a class. _
 
 ![Courses Videos](./assets/Read_Me_Images/courses-videos.png)
-
 
 ### Instructors Page
 * I originally had this on the landing page, and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructor’s picture with their bio beside them and the class times underneath thier picture.
@@ -76,7 +70,7 @@ This project consists of pure HTML5 and CSS.
 
 ## Testing
 
-* During testing of the site I ran into some problems while testing the site out on a smaller screen. On a wide screen the site worked fine but the hero text on the hero image would not respond to resizing. Below is the wide screen image.
+* During testing of the site, I ran into some problems while testing the site out on a smaller screen. On a wide screen the site worked fine but the hero text on the hero image would not respond to resizing. Below is the wide screen image.
 
 ![Hero Image](./assets/Read_Me_Images/hero.png.)
 
@@ -111,7 +105,7 @@ For the life of me i could not firgure out why these icons would not algin in a 
 
 ### HTML
 
-I had a few problems with random unclosed div’s, and other tags not being closed, as well as id's being used twice. All of this was found once I ran my code through W3 Validator and all errors were then corrected. 
+I had a few problems with random unclosed div’s, and other tags not being closed, as well as ID's being used twice. All of this was found once I ran my code through W3 Validator and all errors were then corrected. 
 
 ### CSS
 
@@ -123,7 +117,6 @@ I had one missing curly bracket from my CSS that was spotted once I ran it throu
 
 ## Where I got my idea and content for a yoga website
 
-
 [Instagram](https://www.instagram.com/radicaltransformationyoga/)
 
 [Facebook](https://www.facebook.com/Radicaltransformationyoga)
@@ -132,11 +125,12 @@ I had one missing curly bracket from my CSS that was spotted once I ran it throu
 
 [Yoga Journal](https://www.yogajournal.com/lifestyle/health/womens-health/count-yoga-38-ways-yoga-keeps-fit/)
 
-##  Videos I used for the courses page.
+## Videos I used for the courses page.
 
 [YouTube Video 1](https://www.youtube.com/watch?v=8T39OBNaNzU)
 
 [YouTube Video 2](https://www.youtube.com/watch?v=4C-gxOE0j7s)
+
 
 
 
