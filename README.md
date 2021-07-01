@@ -12,13 +12,13 @@ This website will have information regarding yoga classes, both online and in st
 I replaced the oringal world icon with a "burn-alt" from fontawesome. This was done my using: https://gauger.io/fonticon/ to download the fontawesome icone and then embeded it into the header to create the burn icon on the browser tab. 
 <br />
 <img src="/assets/Read_Me_Images/browser.png">
-
+<br />
 <h3>Navigation Bar</h3>
 The fully responsive navigation bar will have three pages, home(index.html), courses(courses.html) and sign up(singup.html). The nav bar will be across all three pages. 
 This will allow the user to easily navigate across the website.
-
+<br />
 <img src="/assets/Read_Me_Images/NavBar.png">
-    
+<br />
 <h2>Website Pages</h2> 
 <br />  
 <h3>The Landing Page (index.html)</h3>

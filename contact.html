@@ -44,14 +44,16 @@
     <hr>
     <div class="grid-container">
         
-        <div class="contact-container">
-            <form action="/action_page.php">
+        <div class="contact-container" aria-labelledby="contact-form">
+            <form id="contact-form">
                 <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName" placeholder="Please enter your name..">
-
+                <input type="text" id="firstName" name="firstName" placeholder="Please enter your first name.">
                 <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="lastName" placeholder="Please enter your last name..">
-
+                <input type="text" id="lastName" name="lastName" placeholder="Please enter your last name.">
+                <label for="email">Email</label>
+                <input type="email" id="eMail" name="eMail" placeholder="Please enter your email">
+                <label for="mobile">Mobile</label>
+                <input type="text" id="mobile" name="mobile" placeholder="Please enter your mobile number">
                 <label for="contacting">Contacting us in regards to?</label>
                 <select id="contacting" name="contacting">
                     <option value="introduction-classes">Introduction Classes</option>
@@ -68,9 +70,9 @@
             </form>
         </div>
         <div>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.3408981544208!2d-9.038801684025193!3d53.283428187123086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96c11fca891b%3A0xb824d745fb86e53e!2sBikram%20HOT%20YOGA%20Galway!5e0!3m2!1sen!2sie!4v1625046615885!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                <p>Due to Covid-19 our studios are currently closed under the governments guidelines</p>
+            <div class="map-container" aria-labelledby="find-us">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.3408981544208!2d-9.038801684025193!3d53.283428187123086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96c11fca891b%3A0xb824d745fb86e53e!2sBikram%20HOT%20YOGA%20Galway!5e0!3m2!1sen!2sie!4v1625046615885!5m2!1sen!2sie" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" id="find-us"></iframe>
+                <strong>Due to Covid-19 our studios are currently closed.</strong>
             </div>
         </div> 
     </div>       
