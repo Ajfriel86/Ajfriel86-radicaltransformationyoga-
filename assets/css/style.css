@@ -8,7 +8,7 @@
 }
 body {
     font-family: 'Noto Sans KR', sans-serif;  
-    font-weight: 300; 
+    font-weight: 400; 
     color: #36454F; 
     margin-left: auto;
     margin-right: auto;
@@ -56,8 +56,14 @@ h4{
     border-bottom: 1px solid #333333;
 }
 /*Text box within the hero image*/
-#cover-text, #cover-text h2{
-    color: #fff ;
+#cover-text{
+    color: #fff;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    width: 100%;
+    height: 100px;
+
 
 }
 /* hero image */
@@ -77,8 +83,6 @@ h4{
     animation-duration: 6.7s;
     animation-fill-mode: forwards;
       /* grid styles */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     align-items: center;
 }
 
@@ -109,7 +113,7 @@ to
     text-transform: uppercase;
     letter-spacing: 10px;
     width: 100%;
-    height: 60px;
+    height: 120px;
     padding-top:30px;
     padding-left: 15px;
     background-color: rgba(190, 144, 212,.7);
@@ -146,9 +150,6 @@ hr {
 .box-two{     
     line-height: 20px;
     text-align: left;  
-}
-.pad{
-    margin-bottom: 30px;;
 }
 /*video text styled*/
 .video{
@@ -235,6 +236,9 @@ input[type=text],input[type=email], select, textarea {
     border-radius: 5px;
     background-color: #fed8b1;
     padding: 2rem;
+}
+.map-container{
+    padding: 1rem;
 }
 /*footer styling*/
 .footer{
