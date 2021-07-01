@@ -27,13 +27,13 @@ This will allow the user to easily navigate across the website.
 
 ![Hero](./assets/Read_Me_Images/HeroHead.png)
 
-* _The first image and text the user see is, What is yoga. Here, it is explained very simply for the user. _
+* _The first image and text the user see is, What is yoga. Here, it is explained very simply for the user._
 ![What is Yoga](./assets/Read_Me_Images/what.png)
 
-* _The second image and text on the landing page is, Why do Yoga? Here the site lists the reason why the user will have a benefiacal experince when the participate in a yoga class, or several classes. _
+* _The second image and text on the landing page is, Why do Yoga? Here the site lists the reason why the user will have a benefiacal experince when the participate in a yoga class, or several classes._
 ![Why Do Yoga](./assets/Read_Me_Images/why.png)
 
-* _The footer will have links to facebook, instagram, and youtube, as well an email link to directly contact the studio. This will be across all pages. _
+* _The footer will have links to facebook, instagram, and youtube, as well an email link to directly contact the studio. This will be across all pages._
 
 ![Footer](./assets/Read_Me_Images/footer.png)
 
@@ -43,11 +43,11 @@ This will allow the user to easily navigate across the website.
 
 ![Courses image](./assets/Read_Me_Images/courses1.png)
 
-* _The classes listed are of value to the user so they can see what will fit with there schedule. These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes. _
+* _The classes listed are of value to the user so they can see what will fit with there schedule. These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes._
 
 ![Courses Image 2](./assets/Read_Me_Images/courses2.png)
 
-* _Below this secton of this page there will be two videos that a user can watch and get a feel for what the studio might offer during a class. _
+* _Below this secton of this page there will be two videos that a user can watch and get a feel for what the studio might offer during a class._
 
 ![Courses Videos](./assets/Read_Me_Images/courses-videos.png)
 
