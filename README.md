@@ -9,7 +9,7 @@ This website will have information regarding yoga classes, both online and in st
 <br />
 
 ### Browser Icon
-I replaced the oringal world icon with a "burn-alt" from fontawesome. This was done my using: https://gauger.io/fonticon/ to download the fontawesome icone and then embeded it into the header to create the burn icon on the browser tab. 
+I replaced the oringal world icon with a "burn-alt" from fontawesome. This was done my using: [Gauger](https://gauger.io/fonticon/) to download the fontawesome icone and then embeded it into the header to create the burn icon on the browser tab. 
 
 ![Browers](./assets/Read_Me_Images/browser.png)
 
