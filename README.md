@@ -62,7 +62,7 @@ _This was my old instrutor page, but the images had to change due to them not be
 ![Instructor Page](./assets/Read_Me_Images/instructor.png)
 
 _This is the new images on the page_
-![Instructor Page](./assets/Read_Me_Images/instru-new.png)
+![Instructor Page](./assets/Read_Me_Images/instruc-new.png)
 
 ### Contact Page
 
@@ -78,8 +78,6 @@ This project consists of pure HTML5 and CSS.
 ## Testing
 
 During testing of the site, I ran into some problems while testing the site out on a smaller screen. On a wide screen the site worked fine but the hero text on the hero image would not respond to resizing. Below is the wide screen image.
-
-![Hero Image](./assets/Read_Me_Images/hero.png.)
 
 * _Here is the image when I tried media quries:_
 
