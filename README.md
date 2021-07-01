@@ -26,43 +26,48 @@ This will allow the user to easily navigate across the website.
 * This is the focus of the page. It will have a hero image with some text. I used keyframes here to show the image expanding towards the user. I only used keyframes on the landing page but had a static image for the rest of the pages on the website. Below the hero image there will be displayed the benefits of yoga and these benefits will be accompanied by yoga icons/images wrapped in a circle. 
 * The value of this page is to discribe what yoga is and why it can benefit them. Originally I had the page too clutered and then decided to strip it back with the bear essentials for the user. This is done by breaking it down in to those to very simple categories. What is Yoga, and, Why do Yoga. This in turn is to inspire the user about yoga and to go further into the site to see what is on offer for them.
 
-![Hero]("/assets/Read_Me_Images/HeroHead.png")
+![Hero](./assets/Read_Me_Images/HeroHead.png)
 
 
 * _The first image and text the user see is, What is yoga. Here, it is explained very simply for the user._
-![What is Yoga]("/assets/Read_Me_Images/what.png")
+![What is Yoga](./assets/Read_Me_Images/what.png)
 
 
 * _The second image and text on the landing page is, Why do Yoga? Here the site lists the reason why the user will have a benefiacal experince when the participate in a yoga class, or several classes._
-![Why Do Yoga]("/assets/Read_Me_Images/why.png")
+![Why Do Yoga](./assets/Read_Me_Images/why.png)
 
 * _The footer will have links to facebook, instagram, and youtube, as well an email link to directly contact the studio. This will be across all pages._
-![Footer]("/assets/Read_Me_Images/footer.png")
+
+![Footer](./assets/Read_Me_Images/footer.png)
 
 ### Courses Page
 
 * This page will have the various classes a user can take part in. From introduction classes to yoga training classesand preganacy yoga for mother to be. 
-![Courses image]("/assets/Read_Me_Images/courses1.png")
+
+![Courses image](./assets/Read_Me_Images/courses1.png)
 
 
 * _The classes listed are of value to the user so they can see what will fit with there schedule. These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes._
-![Courses Image 2]("/assets/Read_Me_Images/courses2.png")
+
+![Courses Image 2](./assets/Read_Me_Images/courses2.png)
 
 * _Below this secton of this page there will be two videos that a user can watch and get a feel for what the studio might offer during a class._
-![Courses Videos]("/assets/Read_Me_Images/courses-videos.png")
+
+![Courses Videos](./assets/Read_Me_Images/courses-videos.png)
 
 
 ### Instructors Page
 * I originally had this on the landing page, and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructor’s picture with their bio beside them and the class times underneath thier picture.
 * The user will be able to see the various instructors and their styles and available times when they teach their classes. This will be very useful to the user when consider a style of yoga, a certain class, or just for interest in their future need if they wish to progress into training to become a yoga instructor themselves.
-![Instructor Page](/assets/Read_Me_Images/instructor.png")
+
+![Instructor Page](./assets/Read_Me_Images/instructor.png)
 
 ### Contact Page
 
 * This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries. It will have a drop-down menu with different queries that the user can ask in relation to the topic they wish to discuss. This will aid the user to reach out to the studio to beign their yoga journey. 
 * Also, next to this will be a google-map of where the studio is located so the user can find the studio easily. Although it states that because of Covid-19 that it is currently closed.
 
-![Contact Page]("/assets/Read_Me_Images/contact.png")
+![Contact Page](./assets/Read_Me_Images/contact.png)
 
 ## Technologies used
 
@@ -72,23 +77,23 @@ This project consists of pure HTML5 and CSS.
 
 * During testing of the site I ran into some problems while testing the site out on a smaller screen. On a wide screen the site worked fine but the hero text on the hero image would not respond to resizing. Below is the wide screen image.
 
-![Hero Image]("/assets/Read_Me_Images/hero.png")
+![Hero Image](./assets/Read_Me_Images/hero.png.)
 
 * _Here is the image when I tried media quries:_
 
-![Hero Image 2]("/assets/Read_Me_Images/hero2.png")
+![Hero Image 2](./assets/Read_Me_Images/hero2.png)
 
 * _Here is the image when I tried to reduce it:_
 
-![Hero image reduced Size]("/assets/Read_Me_Images/hero-reduced.png")
+![Hero image reduced Size](./assets/Read_Me_Images/hero-reduced.png)
 
 * _I figured out that it was the CSS i had in place:_
 
-![CSS code]("/assets/Read_Me_Images/css-code.png")
+![CSS code](./assets/Read_Me_Images/css-code.png)
 
 * _Once I removed that I had a responsive bit of text to work with:_
 
-![Hero Fixed]("/assets/Read_Me_Images/hero-fixed.png")
+![Hero Fixed](./assets/Read_Me_Images/hero-fixed.png)
 
 ## Bugs
 
