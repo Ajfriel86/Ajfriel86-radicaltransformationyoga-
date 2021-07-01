@@ -24,8 +24,11 @@ This will allow the user to easily navigate across the website.
 
 * This is the focus of the page. It will have a hero image with some text. I used keyframes here to show the image expanding towards the user. I only used keyframes on the landing page but had a static image for the rest of the pages on the website. Below the hero image there will be displayed the benefits of yoga and these benefits will be accompanied by yoga icons/images wrapped in a circle. 
 * The value of this page is to discribe what yoga is and why it can benefit them. Originally, I had the page too clutered and then decided to strip it back with the bear essentials for the user. This is done by breaking it down in to those to very simple categories. What is Yoga, and, Why do Yoga. This in turn is to inspire the user about yoga and to go further into the site to see what is on offer for them.
-
+_This was the first hero image and text I had but it was non responsive. I fixed this by adding bootstrap and then tweaking and rearranging the text inside the hero image_
 ![Hero](./assets/Read_Me_Images/HeroHead.png)
+
+_This is the new hero image_
+![Hero](./assets/Read_Me_Images/heronew.png)
 
 * _The first image and text the user see is, What is yoga. Here, it is explained very simply for the user._
 ![What is Yoga](./assets/Read_Me_Images/what.png)
@@ -55,7 +58,11 @@ This will allow the user to easily navigate across the website.
 * I originally had this on the landing page, and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructor’s picture with their bio beside them and the class times underneath thier picture.
 * The user will be able to see the various instructors and their styles and available times when they teach their classes. This will be very useful to the user when consider a style of yoga, a certain class, or just for interest in their future need if they wish to progress into training to become a yoga instructor themselves.
 
+_This was my old instrutor page, but the images had to change due to them not being responsive and pixelated_
 ![Instructor Page](./assets/Read_Me_Images/instructor.png)
+
+_This is the new images on the page_
+![Instructor Page](./assets/Read_Me_Images/instru-new.png)
 
 ### Contact Page
 
@@ -105,6 +112,9 @@ I found from moving from screen to screen that none of my elements would comply 
 *Now I have a functioning site thanks to bootstrap
 ![Bug fixed](./assets/Read_Me_Images/bugfix.png)
 ![Bug fixed](./assets/Read_Me_Images/bugfix2.png)
+
+I also had to change the pictures on the instructor page as one of them was stretched. The rest did not fit right with the new picture. So I source images that where all the same size and used them instead. 
+
 ## Bugs
 
 ### Grid-box 
