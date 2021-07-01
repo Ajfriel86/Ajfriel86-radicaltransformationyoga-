@@ -60,9 +60,12 @@ h4{
     color: #fff ;
 
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 480px) {
    #nav a {float: none;width: 100%;}  
 }
+@media only screen and (min-width: 320px) {
+    #nav a {float: none;width: 100%;}  
+ }
 /* hero image */
 #hero-outer {
     height: 600px;
@@ -148,22 +151,22 @@ hr {
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 480px) {
     body .grid-container { grid-template-columns: repeat(2, 1fr); }
 }
-  
+@media only screen and (min-width: 320px) {
+    body .grid-container { grid-template-columns: repeat(2, 1fr); }
+}
 /* what is yoga */ 
 body .box-one {
     line-height: 20px;
     text-align: right;
     height: auto;
-   
- 
 }
-@media only screen and (min-width: 800px) {    
+@media only screen and (min-width: 480px) {    
    body .box-one{height: auto; align-items: center;}
 }
-@media only screen and (min-width: 600px) {    
+@media only screen and (min-width: 320px) {    
     body .box-one{height: auto; align-items: center;}
  }
 /* why do yoga*/
@@ -173,10 +176,10 @@ body .box-two{
     text-align: left;
     height:auto;   
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 480px) {
     .box-two{height:auto; align-items: center;} 
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 320px) {
     .box-two{height:auto; align-items: center;} 
 }
 /*video text styled*/
@@ -190,10 +193,10 @@ body .box-two{
     height: 100%;
     border-radius: 50%;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 480px) {
     #circle-one{height:auto; align-items: center;} 
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 320px) {
     #circle-one{height:auto; align-items: center;} 
 }
 /*cirled picture*/
@@ -207,10 +210,10 @@ body .box-two{
     border-radius: 50%;
     margin: 0 auto;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 480px) {
     .container{height:auto; align-items: center;} 
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 320px) {
     .container{height:auto; align-items: center;} 
 }
 /*image within circle 1*/
@@ -220,10 +223,10 @@ body .box-two{
     border-radius: 50%;
     
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 480px) {
     #circle-2{height:auto; align-items: center;} 
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 320px) {
     #circle-2{height:auto; align-items: center;} 
 }
 .list{
