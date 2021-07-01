@@ -61,7 +61,7 @@ h4{
 
 }
 @media only screen and (min-width: 600px) {
-   body #nav a {float: none;width: 100%;}  
+   #nav a {float: none;width: 100%;}  
 }
 /* hero image */
 #hero-outer {
@@ -160,9 +160,12 @@ body .box-one {
    
  
 }
-@media only screen and (min-width: 600px) {    
-   body .box-one{height: auto;}
+@media only screen and (min-width: 800px) {    
+   body .box-one{height: auto; align-items: center;}
 }
+@media only screen and (min-width: 600px) {    
+    body .box-one{height: auto; align-items: center;}
+ }
 /* why do yoga*/
 body .box-two{
      
@@ -170,8 +173,11 @@ body .box-two{
     text-align: left;
     height:auto;   
 }
+@media only screen and (min-width: 800px) {
+    .box-two{height:auto; align-items: center;} 
+}
 @media only screen and (min-width: 600px) {
-    .box-two{height:auto;}  
+    .box-two{height:auto; align-items: center;} 
 }
 /*video text styled*/
 .video{
@@ -184,6 +190,12 @@ body .box-two{
     height: 100%;
     border-radius: 50%;
 }
+@media only screen and (min-width: 800px) {
+    #circle-one{height:auto; align-items: center;} 
+}
+@media only screen and (min-width: 600px) {
+    #circle-one{height:auto; align-items: center;} 
+}
 /*cirled picture*/
 .container{
     width: 300px;
@@ -195,12 +207,24 @@ body .box-two{
     border-radius: 50%;
     margin: 0 auto;
 }
+@media only screen and (min-width: 800px) {
+    .container{height:auto; align-items: center;} 
+}
+@media only screen and (min-width: 600px) {
+    .container{height:auto; align-items: center;} 
+}
 /*image within circle 1*/
 #circle-2{
     background: url('../images/yoga-3.png') no-repeat center center;
     height: 100%;
     border-radius: 50%;
     
+}
+@media only screen and (min-width: 800px) {
+    #circle-2{height:auto; align-items: center;} 
+}
+@media only screen and (min-width: 600px) {
+    #circle-2{height:auto; align-items: center;} 
 }
 .list{
     color: #ed7014;
