@@ -23,8 +23,8 @@ This will allow the user to easily navigate across the website.
 <br />  
 <h3>The Landing Page (index.html)</h3>
 <br />
-<li>This is the focus of the page. It will have a hero image with some captions and below this will display the benefits of yoga and these benefits will be accompanied by yoga icons/images wrapped in a circle. </li>
-<li>The value of this page is to discribe what yoga is and why it can benefit them. This is done by break it down in to those to very simple categories. Whta is Yoga, and, Why do Yoga. This in turn is to inspire the user about yoga and to go further into the site to see what is on offer for them.
+<li>This is the focus of the page. It will have a hero image with some text. I used keyframes here to show the image expanding towards the user. I only used keyframes on the landing page but had a static image for the rest of the pages on the website. Below the hero image there will be displayed the benefits of yoga and these benefits will be accompanied by yoga icons/images wrapped in a circle. </li>
+<li>The value of this page is to discribe what yoga is and why it can benefit them. Originally I had the page too clutered and then decided to strip it back with the bear essentials for the user. This is done by breaking it down in to those to very simple categories. What is Yoga, and, Why do Yoga. This in turn is to inspire the user about yoga and to go further into the site to see what is on offer for them.
 </li>
 <br />
 <img src="/assets/Read_Me_Images/HeroHead.png">
@@ -67,7 +67,7 @@ This will allow the user to easily navigate across the website.
 <br />
 <li>This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries. It will have a drop-down menu with different queries that the user can ask in relation to the topic they wish to discuss. This will aid the user to reach out to the studio to beign their yoga journey. </li>
 <li>Also, next to this will be a google-map of where the studio is located so the user can find the studio easily. Although it states that because of Covid-19 that it is currently closed.</li>
-</ul>
+
 <br />
 <img src="/assets/Read_Me_Images/contact.png">
 <br />
@@ -77,6 +77,27 @@ This project consists of pure HTML5 and CSS.
 
 <h2>Testing</h2>
 <br />
+During testing of the site I ran into some problems while testing the site out on a smaller screen. On a wide screen the site worked fine but the hero text on the hero image would not respond to resizing. Below is the wide screen image.
+<br />
+<img src="/assets/Read_Me_Images/hero.png">
+<br />
+<li>Here is the image when I tried media quries:</li>
+<br />
+<img src="/assets/Read_Me_Images/hero2.png">
+<br />
+<li>Here is the image when I tried to reduce it:</li>
+<br />
+<img src="/assets/Read_Me_Images/hero-reduced.png">
+<br />
+<li>I  figured out that it was the CSS i had in place:</li>
+<br />
+<img src="/assets/Read_Me_Images/css-code.png">
+<br />
+<li>Once I removed that I had a responsive bit of text to work with:</li>
+<br />
+<img src="/assets/Read_Me_Images/hero-fixed.png">
+<br />
+</ul>
 <h2>Bugs!</h2>
 <br />
 Grid-box 
