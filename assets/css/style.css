@@ -60,12 +60,16 @@ h4{
     color: #fff ;
 
 }
-@media only screen and (min-width: 480px) {
-   #nav a {float: none;width: 100%;}  
-}
-@media only screen and (min-width: 320px) {
-    #nav a {float: none;width: 100%;}  
- }
+@media (min-width: 1200px) {
+    #nav a {float: none;width: 100%;}}
+@media (min-width: 800px) {
+    #nav a {float: none;width: 100%;}}
+@media (min-width: 600px) {
+    #nav a {float: none;width: 100%;}}
+@media (min-width: 480px) {
+   #nav a {float: none;width: 100%;}}
+@media (min-width: 320px) {
+    #nav a {float: none;width: 100%;}}
 /* hero image */
 #hero-outer {
     height: 600px;
@@ -87,11 +91,27 @@ h4{
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     align-items: center;
 }
+
 /* animates hero image for landing page with zoom effect */
 @keyframes hero-zoomer {
 from {transform: scale(1);}
 to
 {transform: scale(1.25);}}
+@media (min-width: 1200px) {
+    #hero {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 800px) {
+    #hero {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 600px) {
+    #hero {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 480px) {
+    #hero {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 320px) {
+    #hero {max-width: 100%; max-height: 100%;}
+}
 /*hero image for every page except landing page*/
 #hero-rest {
     height: 600px;
@@ -103,6 +123,21 @@ to
     align-items: center;
     /*keeps image the same size as the landing page*/
     transform: scale(1.25);
+}
+@media (min-width: 1200px) {
+    #hero-rest {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 800px) {
+    #hero-rest {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 600px) {
+    #hero-rest {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 480px) {
+    #hero-rest {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 320px) {
+    #hero-rest {max-width: 100%; max-height: 100%;}
 }
 /*text box within the hero image styled*/
 
@@ -119,6 +154,21 @@ to
     background-color: rgba(190, 144, 212,.7);
     bottom: 25px;
     position: absolute;
+}
+@media (min-width: 1200px) {
+    #cover-test {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 800px) {
+    #cover-test {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 600px) {
+    #cover-text {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 480px) {
+    #cover-test {max-width: 100%; max-height: 100%;}
+}
+@media (min-width: 320px) {
+    #cover-text {max-width: 100%; max-height: 100%;}
 }
 /*adds a margin botton to everything with this class name*/
 .margin{
@@ -151,17 +201,35 @@ hr {
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+@media (min-width: 1200px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 800px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 600px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+}
 @media only screen and (min-width: 480px) {
-    body .grid-container { grid-template-columns: repeat(2, 1fr); }
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
 }
 @media only screen and (min-width: 320px) {
-    body .grid-container { grid-template-columns: repeat(2, 1fr); }
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
 }
 /* what is yoga */ 
 body .box-one {
     line-height: 20px;
     text-align: right;
     height: auto;
+}
+@media (min-width: 1200px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 800px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 600px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr); }
 }
 @media only screen and (min-width: 480px) {    
    body .box-one{height: auto; align-items: center;}
@@ -176,11 +244,20 @@ body .box-two{
     text-align: left;
     height:auto;   
 }
+@media (min-width: 1200px) {
+    .box-two {max-width: 100%; max-height: 100%;align-items: center;}
+}
+@media (min-width: 800px) {
+    .box-two {max-width: 100%; max-height: 100%;align-items: center;}
+}
+@media (min-width: 600px) {
+    .box-two {max-width: 100%; max-height: 100%;align-items: center;}
+}
 @media only screen and (min-width: 480px) {
-    .box-two{height:auto; align-items: center;} 
+    .box-two {max-width: 100%; max-height: 100%;align-items: center;} 
 }
 @media only screen and (min-width: 320px) {
-    .box-two{height:auto; align-items: center;} 
+    .box-two {max-width: 100%; max-height: 100%;align-items: center;} 
 }
 /*video text styled*/
 .video{
@@ -193,11 +270,20 @@ body .box-two{
     height: 100%;
     border-radius: 50%;
 }
+@media (min-width: 1200px) {
+    #circle-one {max-width: 100%; max-height: 100%;align-items: center;}
+}
+@media (min-width: 800px) {
+    #circle-one {max-width: 100%; max-height: 100%;align-items: center;}
+}
+@media (min-width: 600px) {
+    #circle-one {max-width: 100%; max-height: 100%;align-items: center;}
+}
 @media only screen and (min-width: 480px) {
-    #circle-one{height:auto; align-items: center;} 
+    #circle-one {max-width: 100%; max-height: 100%;align-items: center;} 
 }
 @media only screen and (min-width: 320px) {
-    #circle-one{height:auto; align-items: center;} 
+    #circle-one {max-width: 100%; max-height: 100%;align-items: center;} 
 }
 /*cirled picture*/
 .container{
@@ -210,11 +296,20 @@ body .box-two{
     border-radius: 50%;
     margin: 0 auto;
 }
+@media (min-width: 1200px) {
+    .container {max-width: 100%; max-height: 100%;align-items: center;}
+}
+@media (min-width: 800px) {
+    .container {max-width: 100%; max-height: 100%;align-items: center;}
+}
+@media (min-width: 600px) {
+    .container {max-width: 100%; max-height: 100%;align-items: center;}
+}
 @media only screen and (min-width: 480px) {
-    .container{height:auto; align-items: center;} 
+    .container {max-width: 100%; max-height: 100%;align-items: center;} 
 }
 @media only screen and (min-width: 320px) {
-    .container{height:auto; align-items: center;} 
+    .container {max-width: 100%; max-height: 100%;align-items: center;} 
 }
 /*image within circle 1*/
 #circle-2{
@@ -223,11 +318,20 @@ body .box-two{
     border-radius: 50%;
     
 }
+@media (min-width: 1200px) {
+    #circle-2 {max-width: 100%; max-height: 100%;align-items: center;}
+}
+@media (min-width: 800px) {
+    #circle-2 {max-width: 100%; max-height: 100%;align-items: center;}
+}
+@media (min-width: 600px) {
+    #circle-2 {max-width: 100%; max-height: 100%;align-items: center;}
+}
 @media only screen and (min-width: 480px) {
-    #circle-2{height:auto; align-items: center;} 
+    #circle-2 {max-width: 100%; max-height: 100%;align-items: center;} 
 }
 @media only screen and (min-width: 320px) {
-    #circle-2{height:auto; align-items: center;} 
+    #circle-2 {max-width: 100%; max-height: 100%;align-items: center;} 
 }
 .list{
     color: #ed7014;
