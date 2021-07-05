@@ -77,7 +77,9 @@ h4{
 #hero {
     height: 600px;
     width: 100%;
+    background-repeat: no-repeat;
     background-image: url('../images/yoga.jpg');
+    position: relative;
     /* animating the hero-zoomer*/
     animation-name: hero-zoomer;
     animation-duration: 6.7s;
@@ -140,6 +142,16 @@ hr {
     text-align: center;
     margin: 10px 0;
     font-size: 200%;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+@media screen and (max-width: 575px){
+    .flex-container{
+        flex-direction: column;
+    }
 }
 /* what is yoga */ 
 .box-one {
@@ -245,9 +257,17 @@ input[type=text],input[type=email], select, textarea {
 }
 /*footer styling*/
 .footer{
-    height: 10rem;
-    text-align: center;
-    padding: 15px;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    height: 10rem;  
+}
+@media screen and (max-width: 575px){
+    .footer{
+        flex-direction: column;
+      padding: 0;
+    }
 }
 .footer a {
     color: inherit;
