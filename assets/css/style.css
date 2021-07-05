@@ -6,14 +6,21 @@
     border: none;
 
 }
+
 body {
     font-family: 'Noto Sans KR', sans-serif;  
-    font-weight: 300; 
+    font-weight: 400; 
     color: #36454F; 
     margin-left: auto;
     margin-right: auto;
     max-width: 1800px;
     padding: 1rem;
+}
+/*adds less weight to the font for a smaller screen*/
+@media screen and (max-width: 575px){
+    body{
+        font-weight: 300; 
+    }
 }
 /* Headings and Logos */
 h1, h2 {
@@ -35,12 +42,26 @@ h4{
     text-decoration: none;
 
 }
-
+@media screen and (max-width: 575px){
+    #logo{
+        text-align: center; 
+        font-size: medium;
+    }
+}
 /* nav links & logo style*/
 #nav {
     font-size: 150%;
     letter-spacing: 4px;
     float: right;
+}
+@media screen and (max-width: 575px){
+    #nav{
+        display: flex;
+        font-size: smaller;
+        flex-direction: column;
+        align-items: flex-start;
+        float: left;
+    }
 }
 #nav, #logo {
     line-height: 75px;
@@ -135,7 +156,7 @@ hr {
     height: 2px;
     margin-bottom: 10px;
     margin-top: 10px;
-  }
+  } 
 /*yoga power styled*/
 #welcome
 { 
@@ -157,16 +178,18 @@ hr {
 .box-one {
     line-height: 20px;
     text-align: right;
+    padding: 5rem;
 }
 /* why do yoga*/
 .box-two{     
     line-height: 20px;
-    text-align: left;  
+    text-align: left; 
+    padding: 5rem; 
 }
 /*video text styled*/
-.video{
-    height: 100%;     
+.video{     
     text-align: center; 
+    padding: 5rem; 
 }
 /*image within circle 1*/
 #circle-one{
@@ -266,7 +289,7 @@ input[type=text],input[type=email], select, textarea {
 @media screen and (max-width: 575px){
     .footer{
         flex-direction: column;
-      padding: 0;
+        padding-top: 10px;
     }
 }
 .footer a {
