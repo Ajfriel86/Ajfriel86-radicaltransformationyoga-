@@ -154,12 +154,17 @@ header{
     height: 600px;
     width: 100%;
     overflow: hidden;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 /*hero image for landing page*/
 #hero {
     height: 600px;
     width: 100%;
+    display: block;
     background-repeat: no-repeat;
     background-image: url('../images/yoga.jpg');
     position: relative;
@@ -177,6 +182,59 @@ from {transform: scale(1);}
 to
 {transform: scale(1.25);}}
 
+@media screen and (max-width: 1200px){
+    #hero{
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover; 
+
+    }
+}
+@media screen and (max-width: 1000px){
+    #hero{
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+    }
+}
+@media screen and (max-width: 800px){
+    #hero{
+        
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+
+    }
+}
+@media screen and (max-width: 600px){
+    #hero{
+        
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+
+    }
+}
+@media screen and (max-width: 300px){
+    #hero{
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover;
+
+    }
+}
 /*hero image for every page except landing page*/
 #hero-rest {
     height: 600px;
@@ -293,39 +351,6 @@ hr {
     .wide{
         flex-direction: column;
         width: 100%;
-    }
-}
-/*container for instructor pictures
-.pic-container2{
-    width: 300px;
-    height: 300px;
-}
-#ciara{
-    background: url('../images/teach2.jpg') no-repeat center center;
-    height: 100%;
-}
-#sara{
-    background: url('../images/teach1.jpg') no-repeat center center;
-    height: 100%;
-}
-#keith{
-    background: url('../images/teach3.jpg') no-repeat center center;
-    height: 100%;
-}
-/*Change image size on different screens
-@media screen and (max-width: 1200px){
-    #ciara{ background-image: url ('../images/teach2small.jpg')
-
-    }
-}
-@media screen and (max-width: 1200px){
-    #keith{ background-image: url ('../images/teach3small.jpg')
-
-    }
-}
-@media screen and (max-width: 1200px){
-    #sara{ background-image: url ('../images/teach1small.jpg')
-
     }
 }
 /*makes img responsive*/
