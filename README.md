@@ -58,11 +58,11 @@ _This is the new hero image_
 * I originally had this on the landing page, and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructor’s picture with their bio beside them and the class times underneath thier picture.
 * The user will be able to see the various instructors and their styles and available times when they teach their classes. This will be very useful to the user when consider a style of yoga, a certain class, or just for interest in their future need if they wish to progress into training to become a yoga instructor themselves.
 
-_This was my old instrutor page, but the images had to change due to them not being responsive and pixelated_
-![Instructor Page](./assets/Read_Me_Images/instructor.png)
 
-_This is the new images on the page_
-![Instructor Page](./assets/Read_Me_Images/instruc-new.png)
+![Instructor Page](./assets/Read_Me_Images/instructor.png)
+![Instructor Page](./assets/Read_Me_Images/instructor2.png)
+![Instructor Page](./assets/Read_Me_Images/instruct3.png)
+
 
 ### Contact Page
 
