@@ -66,14 +66,12 @@ header{
 
 /* nav links styled*/
 #nav {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 150%;
+    float: right;
+    font-size: 100%;
     letter-spacing: 4px;
-    flex-wrap: wrap;
-    align-items: center;
    
-}
+   
+}/*
 @media screen and (max-width: 1200px){
     #nav{
    
@@ -192,6 +190,15 @@ to
         background-size: cover; 
 
     }
+    #hero-rest{
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover; 
+
+    }
 }
 @media screen and (max-width: 1000px){
     #hero{
@@ -202,9 +209,26 @@ to
         background-position:center center;
         background-size: contain;
     }
+    #hero-rest{
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+    }
 }
 @media screen and (max-width: 800px){
     #hero{
+        
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+
+    }
+    #hero-rest{
         
         width: 100%;
         overflow: hidden;
@@ -224,9 +248,26 @@ to
         background-size: contain;
 
     }
+    #hero-rest{
+        
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+
+    }
 }
 @media screen and (max-width: 300px){
     #hero{
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover;
+
+    }
+    #hero-rest{
         width: 100%;
         overflow: hidden;
         background-repeat:no-repeat;
@@ -509,26 +550,6 @@ input[type=text],input[type=email], select, textarea {
 .footer a {
     padding: 0%;
 }
-@media screen and (max-width: 1200px){
-    .footer{
-        flex-direction: column;       
-    }
-}
-@media screen and (max-width: 1000px){
-    .footer{
-        flex-direction: column;      
-    }
-}
-@media screen and (max-width: 800px){
-    .footer{
-        flex-direction: column;       
-    }
-}
-@media screen and (max-width: 575px){
-    .footer{
-        flex-direction: column;
-    }
-}
 .footer a {
     color: inherit;
     text-decoration: none;
@@ -542,4 +563,5 @@ input[type=text],input[type=email], select, textarea {
 i{
     padding: 5rem;
 }
+
 
