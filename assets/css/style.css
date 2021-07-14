@@ -70,10 +70,12 @@ header{
     display: flex;
     justify-content: flex-end;
     font-size: 100%;
-    letter-spacing: 4px;
-   
-   
+    letter-spacing: 4px; 
 }
+#nav a + a:before {
+
+    content: " | ";
+  }
 @media screen and (max-width: 1200px){
     #nav{
    
@@ -81,7 +83,8 @@ header{
         font-size: smaller; 
         flex-wrap: wrap;
         justify-content: space-evenly;
-        align-items: center;            
+        align-items: center; 
+        letter-spacing: 3px;            
     }
 }
 @media screen and (max-width: 1000px){
@@ -91,7 +94,8 @@ header{
         font-size: small; 
         flex-wrap: wrap;
         justify-content: space-evenly;
-        align-items: center     
+        align-items: center;  
+        letter-spacing: 3px;    
     }
 }
 @media screen and (max-width: 800px){
@@ -101,7 +105,8 @@ header{
         font-size: smaller; 
         flex-wrap: wrap;
         justify-content: space-evenly;
-        align-items: center      
+        align-items: center;   
+        letter-spacing: 2px;    
     }
 }
 @media screen and (max-width: 575px){
@@ -111,7 +116,8 @@ header{
         font-size:x-small; 
         flex-wrap: wrap;
         justify-content: space-evenly;
-        align-items: center;       
+        align-items: center;
+        letter-spacing: 2px;        
     }
 }
 @media screen and (max-width: 320px){
@@ -121,7 +127,8 @@ header{
         font-size:x-small; 
         flex-wrap: wrap;
         justify-content: space-evenly;
-        align-items: center;       
+        align-items: center;
+        letter-spacing: 2px;        
     }
 }
 /* nav links & logo style*/
@@ -449,6 +456,53 @@ img{
     text-align: left; 
     padding: 5rem; 
 }
+@media screen and (max-width: 1200px){
+    .box-two{
+       padding: 0%;
+       text-align: justify;
+
+    }
+    .box-one{
+        padding: 0%;
+        text-align: justify;
+ 
+     }
+}
+@media screen and (max-width: 1000px){
+    .box-two{
+        padding: 0%;
+       text-align: justify;
+
+    }
+    .box-one{
+        padding: 0%;
+        text-align: justify;
+ 
+     }
+}
+@media screen and (max-width: 800px){
+    .box-one{
+        padding: 0%;
+        text-align: justify;
+
+    }
+    .box-one{
+        padding: 0%;
+        text-align: justify;
+ 
+     }
+}
+@media screen and (max-width: 575px){
+    .box-two{
+        padding: 0%;
+        text-align: justify;
+    }
+    .box-one{
+        padding: 0%;
+        text-align: justify;
+ 
+     }
+}
 /*video text styled*/
 .video{     
     text-align: center; 
@@ -461,6 +515,7 @@ img{
     border-radius: 50%;
     width: 300px;
     height: 300px;
+    
 }
 /*circled picture*/
 .pic-container{
@@ -547,7 +602,8 @@ input[type=text],input[type=email], select, textarea {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 10rem;  
+    height: 50px; 
+ 
 }
 .footer a {
     padding: 0%;
@@ -563,7 +619,7 @@ input[type=text],input[type=email], select, textarea {
     cursor: pointer;  
 }
 i{
-    padding: 5rem;
+    padding: 15px;
 }
 
 
