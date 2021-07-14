@@ -16,22 +16,6 @@ body {
     max-width: 1800px;
     padding: 1rem;
 }
-/*adds less weight to the font for a smaller screen*/
-@media screen and (max-width: 1000px){
-    body{
-        font-weight: 300; 
-    }
-}
-@media screen and (max-width: 800px){
-    body{
-        font-weight: 300; 
-    }
-}
-@media screen and (max-width: 575px){
-    body{
-        font-weight: 300; 
-    }
-}
 /* Headings and Logos */
 h1, h2 {
     font-family: 'Roboto', sans-serif;
@@ -57,14 +41,6 @@ header{
     text-decoration: none;
 
 }
-@media screen and (max-width: 575px){
-    #logo{
-        text-align: center; 
-        font-size: medium;
-        flex-wrap: wrap;
-    }
-}
-
 /* nav links styled*/
 #nav {
     display: flex;
@@ -76,58 +52,6 @@ header{
 
     content: " | ";
   }
-@media screen and (max-width: 1200px){
-    #nav{
-   
-        flex-direction: row;
-        font-size: smaller; 
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center; 
-        letter-spacing: 3px;            
-    }
-}
-@media screen and (max-width: 1000px){
-    #nav{
-        
-        flex-direction: row;
-        font-size: small; 
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;  
-        letter-spacing: 3px;    
-    }
-}
-@media screen and (max-width: 800px){
-    #nav{
-      
-        flex-direction: column;
-        font-size: smaller; 
-        flex-wrap: wrap;
-        justify-content: flex-start;  
-        letter-spacing: 2px;    
-    }
-}
-@media screen and (max-width: 575px){
-    #nav{
-        
-        flex-direction: column;
-        font-size:x-small; 
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        letter-spacing: 2px;        
-    }
-}
-@media screen and (max-width: 320px){
-    #nav{
-        
-        flex-direction: column;
-        font-size:x-small; 
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        letter-spacing: 2px;        
-    }
-}
 /* nav links & logo style*/
 #nav, #logo {
     line-height: 75px;
@@ -183,103 +107,6 @@ header{
 from {transform: scale(1);}
 to
 {transform: scale(1.25);}}
-
-@media screen and (max-width: 1200px){
-    #hero{
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size: cover; 
-
-    }
-    #hero-rest{
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size: cover; 
-
-    }
-}
-@media screen and (max-width: 1000px){
-    #hero{
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size: contain;
-    }
-    #hero-rest{
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size: contain;
-    }
-}
-@media screen and (max-width: 800px){
-    #hero{
-        
-        width: 100%;
-        overflow: hidden;
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size: contain;
-
-    }
-    #hero-rest{
-        
-        width: 100%;
-        overflow: hidden;
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size: contain;
-
-    }
-}
-@media screen and (max-width: 600px){
-    #hero{
-        
-        width: 100%;
-        overflow: hidden;
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size: contain;
-
-    }
-    #hero-rest{
-        
-        width: 100%;
-        overflow: hidden;
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size: contain;
-
-    }
-}
-@media screen and (max-width: 300px){
-    #hero{
-        width: 100%;
-        overflow: hidden;
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size: cover;
-
-    }
-    #hero-rest{
-        width: 100%;
-        overflow: hidden;
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size: cover;
-
-    }
-}
 /*hero image for every page except landing page*/
 #hero-rest {
     height: 600px;
@@ -335,31 +162,6 @@ hr {
     justify-content:space-around;
    
 }
-@media screen and (max-width: 1200px){
-    .flex-container{
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 1000px){
-    .flex-container{
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 800px){
-    .flex-container{
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 575px){
-    .flex-container{
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 450px){
-    .flex-container{
-        flex-direction: column;
-    }
-}
 /*styles divs on instructors page*/
 .wide{
     display: flex;
@@ -367,76 +169,11 @@ hr {
     justify-content: space-evenly;
     padding: 10px;
 }
-
-@media screen and (max-width: 1200px){
-    .wide{
-        flex-direction: column;
-        width: 100%; 
-    }
-}
-@media screen and (max-width: 1000px){
-    .wide{
-        flex-direction: column;
-        width: 100%;
-    }
-}
-@media screen and (max-width: 800px){
-    .wide{
-        flex-direction: column;
-        width: 100%;
-    }
-}
-@media screen and (max-width: 575px){
-    .wide{
-        flex-direction: column;
-        width: 100%;
-    }
-}
-@media screen and (max-width: 450px){
-    .wide{
-        flex-direction: column;
-        width: 100%;
-    }
-}
 /*makes img responsive*/
 img{
     height: auto;
     width: auto;
     box-shadow: 10px 14px 20px 0px rgba(226,204,189,1);
-}
-@media screen and (max-width: 1200px){
-    img{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        width: 100%;
-
-    }
-}
-@media screen and (max-width: 1000px){
-    img{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        width: 95%;
-
-    }
-}
-@media screen and (max-width: 800px){
-    img{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        width: 90%;
-    }
-}
-@media screen and (max-width: 575px){
-    img{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        width: 85%;
-    }
 }
 /* what is yoga */ 
 .box-one {
@@ -458,74 +195,11 @@ img{
     text-decoration: none;
     color: inherit;
 }
-@media screen and (max-width: 1200px){
-    .box-two{
-       padding: 0%;
-       text-align: justify;
-    }
-    .box-one{
-        padding: 0%;
-        text-align: justify; 
-     }
-}
-@media screen and (max-width: 1000px){
-    .box-two{
-        padding: 0%;
-       text-align: justify;
-    }
-    .box-one{
-        padding: 0%;
-        text-align: justify;
-     }
-}
-@media screen and (max-width: 800px){
-    .box-one{
-        padding: 0%;
-        text-align: justify;
-    }
-    .box-one{
-        padding: 0%;
-        text-align: justify; 
-     }
-}
-@media screen and (max-width: 575px){
-    .box-two{
-        padding: 0%;
-        text-align: justify;
-    }
-    .box-one{
-        padding: 0%;
-        text-align: justify; 
-     }
-}
 /*video text styled*/
 .video{     
     text-align: center; 
     padding-bottom: 20px;
     
-}
-@media screen and (max-width: 1200px){
-    .video{     
-        text-align: justify; 
-        
-    }
-}
-@media screen and (max-width: 1000px){
-    .video{     
-        text-align: justify; 
-       
-    }
-}
-@media screen and (max-width: 800px){
-    .video{     
-        text-align: justify; 
-      
-    }
-}
-@media screen and (max-width: 575px){
-    .video{     
-        text-align: justify; 
-    }
 }
 /*image within circle 1*/
 #circle-one{
@@ -620,6 +294,10 @@ input[type=text],input[type=email], select, textarea {
 .map-container{
     padding: 1rem;
 }
+#map iframe{
+    width: 100%;
+     height: 400px;
+}
 /*footer styling*/
 .footer{
     display: flex;
@@ -644,22 +322,302 @@ input[type=text],input[type=email], select, textarea {
 i{
     padding: 15px;
 }
+/*Media queries */
+@media screen and (max-width: 1200px){
+    #nav{
+   
+        flex-direction: row;
+        font-size: smaller; 
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center; 
+        letter-spacing: 3px;            
+    }
+   #hero{
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover; 
+
+    }
+    #hero-rest{
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover; 
+
+    }
+ .flex-container{
+        flex-direction: column;
+    }
+.wide{
+        flex-direction: column;
+        width: 100%; 
+    }
+  img{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+
+    }
+.box-two{
+       padding: 0%;
+       text-align: justify;
+    }
+    .box-one{
+        padding: 0%;
+        text-align: justify; 
+     }
+ .video{     
+        text-align: justify; 
+        
+    }
+.footer{
+    flex-direction: column;
+    padding: 15px; 
+    }
+}
 @media screen and (max-width: 1000px){
-    .footer{
+    body{
+        font-weight: 300; 
+    }
+   #nav{
+        
+        flex-direction: row;
+        font-size: small; 
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;  
+        letter-spacing: 3px;    
+    }
+#hero{
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+    }
+    #hero-rest{
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+    }
+ .flex-container{
+        flex-direction: column;
+    }
+.wide{
+        flex-direction: column;
+        width: 100%; 
+    }
+img{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 95%;
+
+    }
+.box-two{
+       padding: 0%;
+       text-align: justify;
+    }
+    .box-one{
+        padding: 0%;
+        text-align: justify; 
+     }
+ .video{     
+        text-align: justify; 
+        
+    }
+.footer{
     flex-direction: column;
     padding: 15px; 
     }
 }
 @media screen and (max-width: 800px){
-    .footer{
+    body{
+        font-weight: 300; 
+    }
+   #nav{
+      
         flex-direction: column;
-        padding: 15px; 
+        font-size: smaller; 
+        flex-wrap: wrap;
+        justify-content: flex-start;  
+        letter-spacing: 2px;    
+    }
+#hero{
+        
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+
+    }
+    #hero-rest{
+        
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+
+    }
+ .flex-container{
+        flex-direction: column;
+    }
+.wide{
+        flex-direction: column;
+        width: 100%; 
+    }
+ img{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }
+.box-two{
+       padding: 0%;
+       text-align: justify;
+    }
+    .box-one{
+        padding: 0%;
+        text-align: justify; 
+     }
+ .video{     
+        text-align: justify; 
+        
+    }
+.footer{
+    flex-direction: column;
+    padding: 15px; 
     }
 }
 @media screen and (max-width: 575px){
-    .footer{
+    body{
+        font-weight: 300; 
+    }
+  #logo{
+        text-align: center; 
+        font-size: medium;
+        flex-wrap: wrap;
+    }
+    #nav{
+        
         flex-direction: column;
-        padding: 15px; 
+        font-size:x-small; 
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        letter-spacing: 2px;        
+    }
+#hero{
+        
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+
+    }
+    #hero-rest{
+        
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: contain;
+
+    }
+ .flex-container{
+        flex-direction: column;
+    }
+.wide{
+        flex-direction: column;
+        width: 100%; 
+    }
+img{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 85%;
+    }
+.box-two{
+       padding: 0%;
+       text-align: justify;
+    }
+    .box-one{
+        padding: 0%;
+        text-align: justify; 
+     }
+ .video{     
+        text-align: justify; 
+        
+    }
+.footer{
+    flex-direction: column;
+    padding: 15px; 
     }
 }
+@media screen and (max-width: 320px){
+    #nav{
+        
+        flex-direction: column;
+        font-size:x-small; 
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        letter-spacing: 2px;        
+    }
+#hero{
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover;
+
+    }
+    #hero-rest{
+        width: 100%;
+        overflow: hidden;
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover;
+
+    }
+ .flex-container{
+        flex-direction: column;
+    }
+.wide{
+        flex-direction: column;
+        width: 100%; 
+    }
+.box-two{
+       padding: 0%;
+       text-align: justify;
+    }
+    .box-one{
+        padding: 0%;
+        text-align: justify; 
+     }
+ .video{     
+        text-align: justify; 
+        
+    }
+.footer{
+    flex-direction: column;
+    padding: 15px; 
+    }
+}
+
+
+
+
 
