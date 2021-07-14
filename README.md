@@ -159,6 +159,7 @@ I had one missing curly bracket from my CSS that was spotted once I ran it throu
 [Yoga Room](https://yoga.ie/)
 
 [Yoga Journal](https://www.yogajournal.com/lifestyle/health/womens-health/count-yoga-38-ways-yoga-keeps-fit/)
+[Yoga Journal](https://www.yogajournal.com/lifestyle/yoga-trends/21-under-40/)
 
 ## Videos I used for the courses page.
 
