@@ -101,33 +101,30 @@ header{
 @media screen and (max-width: 800px){
     #nav{
       
-        flex-direction: row;
+        flex-direction: column;
         font-size: smaller; 
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;   
+        justify-content: flex-start;  
         letter-spacing: 2px;    
     }
 }
 @media screen and (max-width: 575px){
     #nav{
         
-        flex-direction: row;
+        flex-direction: column;
         font-size:x-small; 
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
+        justify-content: flex-start;
         letter-spacing: 2px;        
     }
 }
 @media screen and (max-width: 320px){
     #nav{
         
-        flex-direction: row;
+        flex-direction: column;
         font-size:x-small; 
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
+        justify-content: flex-start;
         letter-spacing: 2px;        
     }
 }
@@ -153,8 +150,6 @@ header{
     letter-spacing: 10px;
     width: 100%;
     height: 100px;
-
-
 }
 /* hero image */
 #hero-outer {
@@ -433,7 +428,6 @@ img{
         flex-direction: column;
         height: auto;
         width: 90%;
-
     }
 }
 @media screen and (max-width: 575px){
@@ -468,36 +462,30 @@ img{
     .box-two{
        padding: 0%;
        text-align: justify;
-
     }
     .box-one{
         padding: 0%;
-        text-align: justify;
- 
+        text-align: justify; 
      }
 }
 @media screen and (max-width: 1000px){
     .box-two{
         padding: 0%;
        text-align: justify;
-
     }
     .box-one{
         padding: 0%;
         text-align: justify;
- 
      }
 }
 @media screen and (max-width: 800px){
     .box-one{
         padding: 0%;
         text-align: justify;
-
     }
     .box-one{
         padding: 0%;
-        text-align: justify;
- 
+        text-align: justify; 
      }
 }
 @media screen and (max-width: 575px){
@@ -507,14 +495,37 @@ img{
     }
     .box-one{
         padding: 0%;
-        text-align: justify;
- 
+        text-align: justify; 
      }
 }
 /*video text styled*/
 .video{     
     text-align: center; 
-    padding: 5rem; 
+    padding-bottom: 20px;
+    
+}
+@media screen and (max-width: 1200px){
+    .video{     
+        text-align: justify; 
+        
+    }
+}
+@media screen and (max-width: 1000px){
+    .video{     
+        text-align: justify; 
+       
+    }
+}
+@media screen and (max-width: 800px){
+    .video{     
+        text-align: justify; 
+      
+    }
+}
+@media screen and (max-width: 575px){
+    .video{     
+        text-align: justify; 
+    }
 }
 /*image within circle 1*/
 #circle-one{
@@ -522,8 +533,7 @@ img{
     height: 100%;
     border-radius: 50%;
     width: 300px;
-    height: 300px;
-    
+    height: 300px;    
 }
 /*circled picture*/
 .pic-container{
@@ -634,5 +644,22 @@ input[type=text],input[type=email], select, textarea {
 i{
     padding: 15px;
 }
-
+@media screen and (max-width: 1000px){
+    .footer{
+    flex-direction: column;
+    padding: 15px; 
+    }
+}
+@media screen and (max-width: 800px){
+    .footer{
+        flex-direction: column;
+        padding: 15px; 
+    }
+}
+@media screen and (max-width: 575px){
+    .footer{
+        flex-direction: column;
+        padding: 15px; 
+    }
+}
 
