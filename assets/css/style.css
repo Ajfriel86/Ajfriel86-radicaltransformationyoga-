@@ -235,7 +235,8 @@ padding-top: 25px;
 }
 .list{
     color: #ed7014;
-    font: inherit
+    font: inherit;
+    padding-bottom: 125px;
 }
 ul{
     list-style-type: none;
@@ -286,17 +287,21 @@ input[type=text],input[type=email], select, textarea {
   }
   
   /* Add a background color and some padding around the form */
-  .contact-container {
+.contact-container {
     border-radius: 5px;
     background-color: #fed8b1;
     padding: 2rem;
+    width: 35%;
 }
-.map-container{
-    padding: 1rem;
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
 }
-#map iframe{
-    width: 100%;
-     height: 400px;
+#find-us{
+    width: 700px;
+    height: 700px;
 }
 /*footer styling*/
 .footer{
@@ -304,6 +309,7 @@ input[type=text],input[type=email], select, textarea {
     justify-content: space-evenly;
     align-items: center;
     height: 50px; 
+    padding-top: 125px;
  
 }
 .footer a {
@@ -324,7 +330,7 @@ i{
 }
 /*Media queries */
 @media screen and (max-width: 1200px){
-    #nav{
+ #nav{
    
         flex-direction: row;
         font-size: smaller; 
@@ -333,7 +339,7 @@ i{
         align-items: center; 
         letter-spacing: 3px;            
     }
-   #hero{
+#hero{
         height: 600px;
         width: 100%;
         overflow: hidden;
@@ -342,7 +348,7 @@ i{
         background-size: cover; 
 
     }
-    #hero-rest{
+ #hero-rest{
         height: 600px;
         width: 100%;
         overflow: hidden;
@@ -358,7 +364,7 @@ i{
         flex-direction: column;
         width: 100%; 
     }
-  img{
+img{
         display: flex;
         flex-direction: column;
         height: auto;
@@ -369,7 +375,7 @@ i{
        padding: 0%;
        text-align: justify;
     }
-    .box-one{
+.box-one{
         padding: 0%;
         text-align: justify; 
      }
@@ -377,16 +383,20 @@ i{
         text-align: justify; 
         
     }
+#find-us{
+        width: 500px;
+        height: 500px;
+    }
 .footer{
     flex-direction: column;
-    padding: 15px; 
+    padding-top: 125px;
     }
 }
 @media screen and (max-width: 1000px){
-    body{
+body{
         font-weight: 300; 
     }
-   #nav{
+#nav{
         
         flex-direction: row;
         font-size: small; 
@@ -403,7 +413,7 @@ i{
         background-position:center center;
         background-size: contain;
     }
-    #hero-rest{
+#hero-rest{
         height: 600px;
         width: 100%;
         overflow: hidden;
@@ -437,9 +447,16 @@ img{
         text-align: justify; 
         
     }
+.contact-container {
+        width: 70%;
+    }
+#find-us{
+        width: 450px;
+        height: 450px;
+    }
 .footer{
     flex-direction: column;
-    padding: 15px; 
+    padding-top: 125px; 
     }
 }
 @media screen and (max-width: 800px){
@@ -463,7 +480,7 @@ img{
         background-size: contain;
 
     }
-    #hero-rest{
+#hero-rest{
         
         width: 100%;
         overflow: hidden;
@@ -479,7 +496,7 @@ img{
         flex-direction: column;
         width: 100%; 
     }
- img{
+img{
         display: flex;
         flex-direction: column;
         height: auto;
@@ -493,13 +510,20 @@ img{
         padding: 0%;
         text-align: justify; 
      }
- .video{     
+.video{     
         text-align: justify; 
         
     }
+.contact-container {
+        width: 70%;
+    }
+#find-us{
+        width: 400px;
+        height: 400px;
+    }
 .footer{
     flex-direction: column;
-    padding: 15px; 
+    padding-top: 125px
     }
 }
 @media screen and (max-width: 575px){
@@ -511,7 +535,7 @@ img{
         font-size: medium;
         flex-wrap: wrap;
     }
-    #nav{
+#nav{
         
         flex-direction: column;
         font-size:x-small; 
@@ -528,7 +552,7 @@ img{
         background-size: contain;
 
     }
-    #hero-rest{
+#hero-rest{
         
         width: 100%;
         overflow: hidden;
@@ -537,7 +561,7 @@ img{
         background-size: contain;
 
     }
- .flex-container{
+.flex-container{
         flex-direction: column;
     }
 .wide{
@@ -558,17 +582,24 @@ img{
         padding: 0%;
         text-align: justify; 
      }
- .video{     
+.video{     
         text-align: justify; 
         
     }
+.contact-container {
+        width: 70%;
+    }
+#find-us{
+        width: 250px;
+        height: 250px;
+    }
 .footer{
     flex-direction: column;
-    padding: 15px; 
+    padding-top: 125px; 
     }
 }
 @media screen and (max-width: 320px){
-    #nav{
+#nav{
         
         flex-direction: column;
         font-size:x-small; 
@@ -584,7 +615,7 @@ img{
         background-size: cover;
 
     }
-    #hero-rest{
+#hero-rest{
         width: 100%;
         overflow: hidden;
         background-repeat:no-repeat;
@@ -592,7 +623,7 @@ img{
         background-size: cover;
 
     }
- .flex-container{
+.flex-container{
         flex-direction: column;
     }
 .wide{
@@ -603,7 +634,7 @@ img{
        padding: 0%;
        text-align: justify;
     }
-    .box-one{
+.box-one{
         padding: 0%;
         text-align: justify; 
      }
@@ -611,9 +642,16 @@ img{
         text-align: justify; 
         
     }
+.contact-container {
+        width: 70%;
+    }
+#find-us{
+        width: 150px;
+        height: 150px;
+    }
 .footer{
     flex-direction: column;
-    padding: 15px; 
+    padding-top: 125px; 
     }
 }
 

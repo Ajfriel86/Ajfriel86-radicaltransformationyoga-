@@ -52,7 +52,7 @@ Each page will have a responsive navigation bar and the main logo on the top lef
 
 Every page has a hero image but only the home page's hero image will be animated. THe rest of the pages will have a static image. The purpose of the animated hero image is to draw attention from the user into the website. 
 
-### Browser Icon
+#### Browser Icon
 
 I replaced the oringal world icon with a "burn-alt" from fontawesome. This was done my using: [Gauger](https://gauger.io/fonticon/) to download the fontawesome icone and then embeded it into the header to create the burn icon on the browser tab. 
 
@@ -65,7 +65,7 @@ This will allow the user to easily navigate across the website.
 
 ![Nav Bar](./assets/Read_Me_Images/NavBar.png)
   
-### The Landing Page
+#### The Landing Page
 
 * This is the focus of the page. It will have a hero image with some inspirational text. The hero image on the landing page is animated and expands towards the users toi help grab their attention. I only used keyframes on the landing page but had a static image for the rest of the pages on the website, so it would be be so over barring throughout the website. Below the hero image there will be displayed the benefits of yoga and these benefits will be accompanied by yoga icons/images.
 
@@ -88,7 +88,7 @@ _This is the new hero image_
 
 ![Footer](./assets/Read_Me_Images/footer.png)
 
-### Courses Page
+#### Courses Page
 
 * This page will have the various classes a user can take part in. From introduction classes to yoga training classesand preganacy yoga for mother to be. 
 
@@ -102,7 +102,7 @@ _This is the new hero image_
 
 ![Courses Videos](./assets/Read_Me_Images/courses-videos.png)
 
-### Instructors Page
+#### Instructors Page
 * I originally had this on the landing page, and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructor’s picture with their bio beside them and the class times underneath thier picture.
 
 * The user will be able to see the various instructors and their styles and available times when they teach their classes. This will be very useful to the user when consider a style of yoga, a certain class, or just for interest in their future need if they wish to progress into training to become a yoga instructor themselves.
@@ -111,7 +111,7 @@ _This is the new hero image_
 ![Instructor Page](./assets/Read_Me_Images/instructor2.png)
 ![Instructor Page](./assets/Read_Me_Images/instruct3.png)
 
-### Contact Page
+#### Contact Page
 
 * This page will consist of a form the user can fill in to take part in the classes or if they wish to just contact the studio if they have any quiries. It will have a drop-down menu with different queries that the user can ask in relation to the topic they wish to discuss. This will aid the user to reach out to the studio to beign their yoga journey. 
 
@@ -139,7 +139,7 @@ During testing of the site, I ran into some problems while testing the site out 
 
 ![Hero Fixed](./assets/Read_Me_Images/hero-fixed.png)
 
-### Non-Responsive Screens
+#### Non-Responsive Screens
 I found from moving from screen to screen that none of my elements would comply with media queries. I could not figure out why for some time. Then I realised I was mixing up classes and ID's. Once I figured this out the site became more responive. 
 
 *_Here my divs would not align_
@@ -170,19 +170,19 @@ I also had to change the pictures on the instructor page as one of them was stre
 ### Grid-box 
 My grid box was non-responsive, and all jumbled up on the screen. It took a while to figure it out but i realised i had multiple grids on the screen. Once I realised this and condensed the grids into one grid the issue was resolved. 
 
-### Overlapping DIVS
+#### Overlapping DIVS
 
 I had a problem with overlapping divs when the screen was reduced for mobile use. Thankfully, I discovered unicorn revealer which helped me to identify the problem. It was the padding and the height. I removed the padding altogether and set the height to auto. This helped to resolve the issue. 
 
-### Social Icons on Footer
+#### Social Icons on Footer
 
 For the life of me i could not firgure out why these icons would not algin in a row and not a coloumn. It turns out i was over complicating the issue. I added them to a list and tried to arrange that into Display, inline but nothing was work. After a quick gogle on my issue I then realised the i-tag is an inline tag anyway, like <iframe> so once i reverted them back without a list the problem was resolved. 
 
-### HTML
+#### HTML
 
 I had a few problems with random unclosed div’s, and other tags not being closed, as well as ID's being used twice. All of this was found once I ran my code through W3 Validator and all errors were then corrected. 
 
-### CSS
+#### CSS
 
 I had one missing curly bracket from my CSS that was spotted once I ran it through the validator.
 
@@ -203,19 +203,39 @@ This website was contructed in GitPod and deplopyed on GitHub. The steps taken t
 * On selecting this the page is automatically refreshed and the website is deployed.
 * A link to the website is then diplayed, this is the deployed websites website address.    
 
-## Where I got my idea and content for a yoga website
+## Credits
+
+#### Where I got my idea and content for a yoga website
+
+All content of this website was sourced from various other websites as well as social media accounts all displaying information around the medium of yoga. 
+
+A friend of mine runs this yoga instagram account and this was the inspiriation for my website. After a few lessons with Lisa over the pasyt year she has helped my gain more movement in my shoulder. 
 
 [Instagram](https://www.instagram.com/radicaltransformationyoga/)
 
+This is also Lisa's facebook account for her yoga oractice.
+
 [Facebook](https://www.facebook.com/Radicaltransformationyoga)
 
+This was the main site I used to gather ideas and information on to populate my website.
+
 [Yoga Room](https://yoga.ie/)
+
+Some more content that I used to help populate my website was taken from these tow pages on the yoga journal.
 
 [Yoga Journal](https://www.yogajournal.com/lifestyle/health/womens-health/count-yoga-38-ways-yoga-keeps-fit/)
 [Yoga Journal](https://www.yogajournal.com/lifestyle/yoga-trends/21-under-40/)
 
-## Videos I used for the courses page.
+#### Media
+
+All pictures sourced for this website were gotten from a google search using terms such as - Yoga Teachers, Yoga Poses, Meditation etc.
+
+#### Videos I used for the courses page.
 
 [YouTube Video 1](https://www.youtube.com/watch?v=8T39OBNaNzU)
 
 [YouTube Video 2](https://www.youtube.com/watch?v=4C-gxOE0j7s)
+
+#### Code
+
+All code was taken from previous knowledge I gained from this course and from a software developemnt course I took through GRETB. I had a weak understanding of Flex, but [Flex box Froggy](https://flexboxfroggy.com/) helped me understand how flex boxes work. I also used [W3 Schools](https://www.w3schools.com/) for to brush up on forms  
