@@ -1,7 +1,12 @@
-# Project-Name: Transformative Yoga - Angus Friel
+# Angus Friel
+
+## Project-Name: Transformative Yoga
+
+[View Deployed Site Here](https://ajfriel86.github.io/radicaltransformationyoga/)
+
 The purpose of this website is to display the information of a yoga business and to intise a user to look further into the website and feel inspired about taking up the act of doing yoga. It will feature information regarding what is yoga and why someone would do yoga. It will have information on the teachers in the studio, their background and the classes they teach. There will be a page on courses with a varity of different yoga styles and meditation that a user could take up. There will also be a contact page where a user can get in touch with the studio in regards to classes, online courses, or just general enquiry. 
 
-The business goals of this webiste are as folows:
+The business goals of this website are as follows:
 
 * Build aware of the benefits of yoga.
 * Provide example videos of what a user could experct in a class or an online session.
@@ -13,21 +18,21 @@ The business goals of this webiste are as folows:
 #### Ideal Client
 _The ideal client will be:_
 
-* Has english as a language
-* Is looking to improve their well being
-* Is open-minded and willing to try new things
-* Is interested in field of yoga and meditation
+* Has English as a language
+* Is looking to improve their well-being.
+* Is open-minded and willing to try new things.
+* Is interested in field of yoga and meditation.
 * Has disposable income which they can invest in themselves and their wellbeing. 
 
 #### Website user will be searching for:
 
-* An exercise regime that will aid their wellbeing
-* Ways to help calm their mind, such as meditation
+* An exercise regime that will aid their wellbeing.
+* Ways to help calm their mind, such as meditation.
 
 #### This website will aid them because of the following
 
-* The information is laid out in an easy to read and understand fashion
-* Detailed information on the teachers helps to ensure that the studio knows how to deliver a class with competent teachers
+* The information is laid out in an easy to read and understanding fashion.
+* Detailed information on the teachers helps to ensure that the studio knows how to deliver a class with competent teachers.
 * Example videos dispaly to the user what to expect in on online class or in the studio.
 * The website is easy to navigate ensuring the user gets the information they need. 
 
@@ -114,10 +119,6 @@ _This is the new hero image_
 
 ![Contact Page](./assets/Read_Me_Images/contact.png)
 
-## Technologies used
-
-This project consists of pure HTML5 and CSS.
-
 ## Testing
 
 During testing of the site, I ran into some problems while testing the site out on a smaller screen. On a wide screen the site worked fine but the hero text on the hero image would not respond to resizing. Below is the wide screen image.
@@ -185,9 +186,22 @@ I had a few problems with random unclosed div’s, and other tags not being clos
 
 I had one missing curly bracket from my CSS that was spotted once I ran it through the validator.
 
+## Technologies used
+
+This project consists of pure HTML and CSS. Also used was Google Fonts for the text used throughout the website. For an IDE GitPod was used. 
+
 ## Deployment
 
-    
+This website was contructed in GitPod and deplopyed on GitHub. The steps taken to deploy this website from its [GitHub Repository](https://github.com/Ajfriel86/radicaltransformationyoga) are as folows: 
+
+* Log into GitHub
+* Go to the list of repositories on the left-hand side of the screen.
+* Click on the repository - Ajfriel86/radicaltransformationyoga
+* Choose the settings tab froim the menu items across the top of the page; it is the ninth choice and last option on the menu items.
+* Once the settings page has loaded scroll down to GitHub Pages.
+* In the source section, choose the master branch.
+* On selecting this the page is automatically refreshed and the website is deployed.
+* A link to the website is then diplayed, this is the deployed websites website address.    
 
 ## Where I got my idea and content for a yoga website
 
@@ -205,9 +219,3 @@ I had one missing curly bracket from my CSS that was spotted once I ran it throu
 [YouTube Video 1](https://www.youtube.com/watch?v=8T39OBNaNzU)
 
 [YouTube Video 2](https://www.youtube.com/watch?v=4C-gxOE0j7s)
-
-
-
-
-
-
