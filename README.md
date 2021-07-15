@@ -33,7 +33,7 @@ _The ideal client will be:_
 
 * The information is laid out in an easy to read and understanding fashion.
 * Detailed information on the teachers helps to ensure that the studio knows how to deliver a class with competent teachers.
-* Example videos dispaly to the user what to expect in on online class or in the studio.
+* Example videos display to the user what to expect in on online class or in the studio.
 * The website is easy to navigate ensuring the user gets the information they need. 
 
 #### Client Stories
@@ -43,14 +43,14 @@ _The ideal client will be:_
 * As a new user I want to know what classes are availble if I wish to join.
 * As a new user I want to know what teachers are available at the studio and what styles they teach.
 * As a new user I want to know the yoga background of the teachers in the studio.
-* As a new user I want to be able to contact the studio with any questions I may have regarding the tudio, the classes, or any other enquiry I may have. 
+* As a new user I want to be able to contact the studio with any questions I may have regarding the studio, the classes, or any other enquiry I may have. 
 * As a new user I want to be able to see if the studio has a presence on social media nad if so, I want to follow them and get more of an insight for their ethos. 
   
 ## Features
 
 Each page will have a responsive navigation bar and the main logo on the top left will be a link to the home page, as a result there is no 'home' in the navigation bar, just links for the remaining pages. Each page will have a footer with links to instagram, facebook and a way to email the studio. 
 
-Every page has a hero image but only the home page's hero image will be animated. THe rest of the pages will have a static image. The purpose of the animated hero image is to draw attention from the user into the website. 
+Every page has a hero image but only the home page's hero image will be animated. The rest of the pages will have a static image. The purpose of the animated hero image is to draw attention from the user into the website. 
 
 #### Browser Icon
 
@@ -60,7 +60,7 @@ I replaced the oringal world icon with a "burn-alt" from fontawesome. This was d
 
 ### Navigation Bar
 
-The fully responsive navigation bar will have four pages, home(index.html), courses(courses.html), teachers(teachers.html) and contact(contact.html). The nav bar will be across all three pages. The user can also click on the logo in the top left of the page, Transformative Yoga, to navigate back to the landing page.
+The fully responsive navigation bar will have four pages, home, courses, teachers and contact. The nav bar will be across all three pages. The user can also click on the logo in the top left of the page, Transformative Yoga, to navigate back to the landing page.
 This will allow the user to easily navigate across the website.
 
 ![Nav Bar](./assets/Read_Me_Images/NavBar.png)
@@ -94,7 +94,7 @@ _This is the new hero image_
 
 ![Courses image](./assets/Read_Me_Images/courses1.png)
 
-* _The classes listed are of value to the user so they can see what will fit with there schedule. These clases will have accompying pictures with links to the contact page so a user can contact the studio about classes._
+* _The classes listed are of value to the user so they can see what will fit with there schedule. These classes will have accompanying pictures with links to the contact page so a user can contact the studio about classes._
 
 ![Courses Image 2](./assets/Read_Me_Images/courses2.png)
 
@@ -103,7 +103,7 @@ _This is the new hero image_
 ![Courses Videos](./assets/Read_Me_Images/courses-videos.png)
 
 #### Instructors Page
-* I originally had this on the landing page, and it just looked too clutered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructor’s picture with their bio beside them and the class times underneath thier picture.
+* I originally had this on the landing page, and it just looked too cluttered. After some consideration and playing around I realised the site's structure and asthetics would suite better if the instructors had their own page. It consists of three instructors with their backgrounds in yoga as well the classes the teach and at what times. For the layout of this I had the instructor’s picture with their bio beside them and the class times underneath thier picture.
 
 * The user will be able to see the various instructors and their styles and available times when they teach their classes. This will be very useful to the user when consider a style of yoga, a certain class, or just for interest in their future need if they wish to progress into training to become a yoga instructor themselves.
 
@@ -238,4 +238,11 @@ All pictures sourced for this website were gotten from a google search using ter
 
 #### Code
 
-All code was taken from previous knowledge I gained from this course and from a software developemnt course I took through GRETB. I had a weak understanding of Flex, but [Flex box Froggy](https://flexboxfroggy.com/) helped me understand how flex boxes work. I also used [W3 Schools](https://www.w3schools.com/) for to brush up on forms  
+All code was taken from previous knowledge I gained from this course and from a software developemnt course I took through GRETB. I had a weak understanding of Flex, but [Flex Box Froggy](https://flexboxfroggy.com/) helped me understand how flex boxes work. I also used [W3 Schools](https://www.w3schools.com/) for to brush up on forms.
+
+#### Acknowledgements
+
+My inspiration for this webiste was from a friend who is a yoga instructor and having dealt with her with some online classes. I have dabbled in yoga in the past to help me with some injuries I have had due to my previous job. 
+
+My mentor, Brian Macharia, helped me with some responsive issues I was having when viewing the website on various screen sizes. He also gave me pointers on how to clearly display content by reducing font weight on smaller screens and while the text on the home page bends with the pictures, it stacks on top of the pictures on a mobile device. So, using "text-align: justify" in a media query made the style of the page a lot cleaner. 
+
