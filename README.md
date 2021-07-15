@@ -8,7 +8,30 @@ The business goals of this webiste are as folows:
 * Drive up sales for the studio with tthe content of the webiste.
 * To have a good approach to UX to draw in users and get the to follow through the site so they gain information on the business and feel the need to particapte in a yoga class.
 
-### Client Stories
+## UX
+
+#### Ideal Client
+_The ideal client will be:_
+
+* Has english as a language
+* Is looking to improve their well being
+* Is open-minded and willing to try new things
+* Is interested in field of yoga and meditation
+* Has disposable income which they can invest in themselves and their wellbeing. 
+
+#### Website user will be searching for:
+
+* An exercise regime that will aid their wellbeing
+* Ways to help calm their mind, such as meditation
+
+#### This website will aid them because of the following
+
+* The information is laid out in an easy to read and understand fashion
+* Detailed information on the teachers helps to ensure that the studio knows how to deliver a class with competent teachers
+* Example videos dispaly to the user what to expect in on online class or in the studio.
+* The website is easy to navigate ensuring the user gets the information they need. 
+
+#### Client Stories
 
 * As a new user of this site I want ot be able to navigate the website easily on all devices. 
 * As a new user I want to know what yoga is and why I should do it. 
