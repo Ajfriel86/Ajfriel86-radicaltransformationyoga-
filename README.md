@@ -1,10 +1,28 @@
 # Project-Name: Transformative Yoga - Angus Friel
-This is my first milestone projetc and I chose to take on this project by builing a website for a yoga studio that offers online and studio-based yoga classes. I chose this topic as I have a friend that is a yoga instructor so obtain the content was very easy. I also used other sites and content ot help flesh it out.  
+The purpose of this website is to display the information of a yoga business and to intise a user to look further into the website and feel inspired about taking up the act of doing yoga. It will feature information regarding what is yoga and why someone would do yoga. It will have information on the teachers in the studio, their background and the classes they teach. There will be a page on courses with a varity of different yoga styles and meditation that a user could take up. There will also be a contact page where a user can get in touch with the studio in regards to classes, online courses, or just general enquiry. 
 
+The business goals of this webiste are as folows:
+
+* Build aware of the benefits of yoga.
+* Provide example videos of what a user could experct in a class or an online session.
+* Drive up sales for the studio with tthe content of the webiste.
+* To have a good approach to UX to draw in users and get the to follow through the site so they gain information on the business and feel the need to particapte in a yoga class.
+
+### Client Stories
+
+* As a new user of this site I want ot be able to navigate the website easily on all devices. 
+* As a new user I want to know what yoga is and why I should do it. 
+* As a new user I want to know what classes are availble if I wish to join.
+* As a new user I want to know what teachers are available at the studio and what styles they teach.
+* As a new user I want to know the yoga background of the teachers in the studio.
+* As a new user I want to be able to contact the studio with any questions I may have regarding the tudio, the classes, or any other enquiry I may have. 
+* As a new user I want to be able to see if the studio has a presence on social media nad if so, I want to follow them and get more of an insight for their ethos. 
   
 ## Features
 
-This website will have information regarding yoga classes, both online and in studio. It is for anyone who wants to know more about yoga and this business’ yoga classes. 
+Each page will have a responsive navigation bar and the main logo on the top left will be a link to the home page, as a result there is no 'home' in the navigation bar, just links for the remaining pages. Each page will have a footer with links to instagram, facebook and a way to email the studio. 
+
+Every page has a hero image but only the home page's hero image will be animated. THe rest of the pages will have a static image. The purpose of the animated hero image is to draw attention from the user into the website. 
 
 ### Browser Icon
 
@@ -14,18 +32,16 @@ I replaced the oringal world icon with a "burn-alt" from fontawesome. This was d
 
 ### Navigation Bar
 
-The fully responsive navigation bar will have four pages, home(index.html), courses(courses.html), instructors(instructors.html) and contact(contact.html). The nav bar will be across all three pages. The user can also click on the logo in the top left of the page, Transformative Yoga, to navigate back to the landing page.
+The fully responsive navigation bar will have four pages, home(index.html), courses(courses.html), teachers(teachers.html) and contact(contact.html). The nav bar will be across all three pages. The user can also click on the logo in the top left of the page, Transformative Yoga, to navigate back to the landing page.
 This will allow the user to easily navigate across the website.
 
 ![Nav Bar](./assets/Read_Me_Images/NavBar.png)
-
-## Website Pages
   
 ### The Landing Page
 
-* This is the focus of the page. It will have a hero image with some text. I used keyframes here to show the image expanding towards the user. I only used keyframes on the landing page but had a static image for the rest of the pages on the website. Below the hero image there will be displayed the benefits of yoga and these benefits will be accompanied by yoga icons/images wrapped in a circle. 
+* This is the focus of the page. It will have a hero image with some inspirational text. The hero image on the landing page is animated and expands towards the users toi help grab their attention. I only used keyframes on the landing page but had a static image for the rest of the pages on the website, so it would be be so over barring throughout the website. Below the hero image there will be displayed the benefits of yoga and these benefits will be accompanied by yoga icons/images.
 
-* The value of this page is to discribe what yoga is and why it can benefit them. Originally, I had the page too clutered and then decided to strip it back with the bear essentials for the user. This is done by breaking it down in to those to very simple categories. What is Yoga, and, Why do Yoga. This in turn is to inspire the user about yoga and to go further into the site to see what is on offer for them.
+* The value of this page is to discribe what yoga is and why it can benefit the user. Originally, I had the page too clutered and then decided to strip it back with the bear essentials for the user. This is done by breaking it down in to those two very simple categories. What is Yoga, and, Why do Yoga. This in turn is to inspire the user about yoga and to go further into the site to see what is on offer for them from this studio.
 
 _This was the first hero image and text I had but it was nonresponsive. I fixed this by changing my ID's and Classes tag to the correct ones in CSS, as I was mixing these up, and then tweaking and rearranging the text inside the hero image_
 
