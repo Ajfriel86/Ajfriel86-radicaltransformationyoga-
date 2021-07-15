@@ -2,7 +2,7 @@
 
 ## Project-Name: Transformative Yoga
 
-[View Deployed Site Here](https://ajfriel86.github.io/radicaltransformationyoga/)
+[View Deployed Site Here](https://ajfriel86.github.io/transformativeyoga/)
 
 The purpose of this website is to display the information of a yoga business and to intise a user to look further into the website and feel inspired about taking up the act of doing yoga. It will feature information regarding what is yoga and why someone would do yoga. It will have information on the teachers in the studio, their background and the classes they teach. There will be a page on courses with a varity of different yoga styles and meditation that a user could take up. There will also be a contact page where a user can get in touch with the studio in regards to classes, online courses, or just general enquiry. 
 
